@@ -19,6 +19,7 @@
 如果你要区分“哪些结论是文献/实验支持的”和“哪些只是当前模型推论”，直接看：
 
 - [EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/provenance/EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md)
+- [references.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/provenance/references.md)
 
 ## 1.1 总览图
 
