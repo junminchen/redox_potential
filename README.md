@@ -1,31 +1,42 @@
-# redox_potential
+# redox_constantV
 
-OpenMM-based constant-potential MD and redox screening workflow for battery electrolytes.
+首先看手册：
 
-## Included
+- [docs/methods/USER_MANUAL_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/methods/USER_MANUAL_CN.md)
 
-- Core simulation scripts and configs
-- Force-field XML files in `ffdir/`
-- Molecule PDB templates in `pdb_bank/`
-- Input structure `start_with_electrodes.pdb`
-- Workflow and reference docs
-- Voltage-sweep summary in `results/voltage_sweep_20260311_224838/`
-- Experiment-facing electrolyte screening report in `results/experimental_redox_report_20260311_234115/`
+## Layout
 
-## Key Entry Points
+- `configs/`
+  - `md/`: MD/OpenMM configs
+  - `redox/`: reduction-side screening configs
+  - `oxidation/`: oxidation-side screening configs
+  - `pathways/`: decomposition / pathway configs
+  - `formulations/`: batch formulation inputs
+  - `dft_workflows/`: PySCF workflow inputs
+- `core/`: core Python modules used by the workflows
+- `scripts/`
+  - `cli/`: main runnable simulation/screening entry points
+  - `dft/`: report generation and DFT-to-config utilities
+  - `plotting/`: plotting utilities
+  - `utils/`: one-off structure/build helpers
+- `structures/`
+  - `pdb_bank/`: single-molecule templates
+  - `systems/`: assembled simulation systems
+- `ff/`: force-field XML files
+- `docs/`
+  - `methods/`: current workflow docs
+  - `provenance/`: parameter/source tracing
+  - `notes/`: auxiliary notes
+  - `reports/`: historical reports
+- `tests/`: lightweight regression tests
+- `results/`: generated outputs and archived debug runs
+- `archive/legacy/`: older scripts and job files kept for reference
 
-- `run_voltage_sweep.py`: constant-potential sweep driver
-- `generate_experimental_redox_report.py`: build LSV/CV-like plots and a report
-- `config_redox_electrolyte_effective.json`: effective EC/DMC onset-screening model
-- `config_redox_real_template.json`: template for real redox-active molecules
-- `HIGH_VOLTAGE_STABILITY_WORKFLOW.md`: roadmap toward formulation-level 5 V stability screening
+## Main entry points
 
-## Main Outputs
-
-- `results/experimental_redox_report_20260311_234115/electrolyte_lsv_cv_like.png`
-- `results/experimental_redox_report_20260311_234115/REPORT.md`
-- `results/experimental_redox_report_20260311_234115/electrolyte_redox_summary.csv`
-
-## Excluded from git
-
-Large generated trajectories and transient run directories are ignored.
+- MD sweep:
+  - `python scripts/cli/run_voltage_sweep.py --config configs/md/config_opls.json --redox-config configs/redox/config_redox.json --pdb structures/systems/start_with_electrodes.pdb`
+- Batch screening:
+  - `python scripts/cli/batch_screen_formulations.py --input configs/formulations/formulation_batch_example_extended.json --output-dir results/formulation_batch_test`
+- DFT to screening config:
+  - `python scripts/dft/generate_redox_config_from_dft.py --workflow configs/dft_workflows/example_ec_dmc_reduction.json --output-dir results/dft_interface_test`

@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "temperature_k": 300.0,
+    "workflow_label": "EC/DMC reduction GPU4PySCF example"
+  },
+  "default_dft": {
+    "method": "b3lyp",
+    "basis": "def2-svp",
+    "backend": "gpu4pyscf",
+    "use_density_fit": true,
+    "solvent": {
+      "model": "cpcm",
+      "eps": 40.0
+    }
+  },
+  "molecules": [
+    {
+      "name": "EC",
+      "geometry_file": "../../structures/pdb_bank/EC.pdb",
+      "geometry_format": "pdb",
+      "residue_names": ["ECA", "EC1", "EC"],
+      "reference_state": 0,
+      "charge_states": [
+        {"state": 0, "charge": 0, "spin": 0, "label": "neutral"},
+        {"state": -1, "charge": -1, "spin": 1, "label": "radical anion"}
+      ]
+    },
+    {
+      "name": "DMC",
+      "geometry_file": "../../structures/pdb_bank/DMC.pdb",
+      "geometry_format": "pdb",
+      "residue_names": ["DMC", "DMC1", "DME"],
+      "reference_state": 0,
+      "charge_states": [
+        {"state": 0, "charge": 0, "spin": 0, "label": "neutral"},
+        {"state": -1, "charge": -1, "spin": 1, "label": "radical anion"}
+      ]
+    }
+  ]
+}

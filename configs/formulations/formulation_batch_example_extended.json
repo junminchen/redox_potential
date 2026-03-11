@@ -1,0 +1,34 @@
+[
+  {
+    "name": "4 m LiFSI in DME",
+    "reduction_config": "../redox/config_redox_lm_4m_lifsi_dme.json",
+    "oxidation_config": "../oxidation/config_oxidation_lm_4m_lifsi_dme.json",
+    "pathway_config": "../pathways/config_reaction_pathways_lm_4m_lifsi_dme.json",
+    "target_high_voltage_v": 4.5,
+    "rate_threshold_s^-1": 1.0e-4
+  },
+  {
+    "name": "1 M LiPF6 in EC:EMC (3:7)",
+    "reduction_config": "../redox/config_redox_baseline_lipf6_ec_emc37.json",
+    "oxidation_config": "../oxidation/config_oxidation_baseline_lipf6_ec_emc37.json",
+    "pathway_config": "../pathways/config_reaction_pathways_baseline_lipf6_ec_emc37.json",
+    "target_high_voltage_v": 4.5,
+    "rate_threshold_s^-1": 1.0e-4
+  },
+  {
+    "name": "LiFSI:EC 1:4",
+    "reduction_config": "../redox/config_redox_hce_lifsi_ec14.json",
+    "oxidation_config": "../oxidation/config_oxidation_hce_lifsi_ec14.json",
+    "pathway_config": "../pathways/config_reaction_pathways_hce_lifsi_ec14.json",
+    "target_high_voltage_v": 5.0,
+    "rate_threshold_s^-1": 1.0e-4
+  },
+  {
+    "name": "1:1.1 LiFSI in DMC",
+    "reduction_config": "../redox/config_redox_hv_11_lifsi_dmc.json",
+    "oxidation_config": "../oxidation/config_oxidation_hv_11_lifsi_dmc.json",
+    "pathway_config": "../pathways/config_reaction_pathways_hv_11_lifsi_dmc.json",
+    "target_high_voltage_v": 5.0,
+    "rate_threshold_s^-1": 1.0e-4
+  }
+]

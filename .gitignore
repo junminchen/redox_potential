@@ -2,9 +2,10 @@ __pycache__/
 *.py[cod]
 *.so
 *.dcd
-md_opls.log
-electrode_charges.log
-final_opls.pdb
-sweep_results/
-debug_runs/
 .DS_Store
+
+results/debug_runs/
+results/scratch/
+results/formulation_batch_layoutcheck_20260312/
+results/dft_interface_ec_dmc_20260312_011200/
+results/dft_interface_ec_gpu_smoke_20260312_013200/
