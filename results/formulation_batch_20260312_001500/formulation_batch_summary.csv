@@ -1,0 +1,2 @@
+formulation,target_high_voltage_v,reduction_low_limit_v_vs_li,oxidation_high_limit_v_vs_li,pathway_high_limit_v_vs_li,effective_high_limit_v_vs_li,stable_at_target,limiting_molecule,limiting_factor,limiting_reduction_molecule,limiting_pathway_molecule
+1M LiPF6 in EC:DMC,5.0,0.5268927714775167,4.343107233860316,3.5,3.5,False,EC,reactive_pathway,EC,EC
