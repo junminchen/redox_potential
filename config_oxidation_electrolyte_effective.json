@@ -1,0 +1,56 @@
+{
+  "_comment": [
+    "Effective oxidation-onset model for the EC/DMC electrolyte.",
+    "These are formulation-level screening parameters intended to support",
+    "high-voltage stability triage, not final interfacial oxidation kinetics.",
+    "",
+    "Literature-inspired effective targets used here:",
+    "  EC oxidation onset  ~ 4.4 V vs Li/Li+ (EC is problematic on Ni-rich cathodes above this region)",
+    "  DMC oxidation onset ~ 4.7 V vs Li/Li+ (treated here as somewhat more oxidatively stable)",
+    "",
+    "Using the project's +1.4 V Li/vacuum offset gives:",
+    "  EC  -> 3.0 V vs vacuum",
+    "  DMC -> 3.3 V vs vacuum"
+  ],
+  "metadata": {
+    "electrolyte_composition": "1M LiPF6 in EC:DMC",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "recommended_voltage_window_v_vs_vacuum": [2.4, 3.9]
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": ["ECA", "EC1", "EC"],
+      "charge_states": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "electron_affinities": {
+        "0,1": 0.0
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "1": 289.455996
+      },
+      "allowed_states": [0, 1],
+      "partition_coefficient": 0.0
+    },
+    "DMC": {
+      "residue_names": ["DMC", "DMC1", "DME"],
+      "charge_states": {
+        "0": 0.0,
+        "1": 1.0
+      },
+      "electron_affinities": {
+        "0,1": 0.0
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "1": 318.401676
+      },
+      "allowed_states": [0, 1],
+      "partition_coefficient": 0.0
+    }
+  }
+}
