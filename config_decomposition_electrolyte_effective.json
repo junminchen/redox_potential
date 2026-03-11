@@ -1,0 +1,29 @@
+{
+  "_comment": [
+    "Effective irreversible decomposition risk model for high-voltage screening.",
+    "This layer is intentionally heuristic: it translates the idea that once a",
+    "molecule is sufficiently oxidized, bond cleavage / ring opening / radical",
+    "follow-up chemistry can become the real stability limiter.",
+    "",
+    "The onset values below are screening parameters in V vs Li/Li+.",
+    "Use them as formulation-triage inputs, not final mechanistic truth."
+  ],
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "target_use_case": "high-voltage electrolyte stability triage"
+  },
+  "molecules": {
+    "EC": {
+      "decomposition_onset_v_vs_li": 4.20,
+      "transition_width_v": 0.15,
+      "dominant_channel": "oxidation-triggered ring opening / interphase-forming chemistry",
+      "severity": "high"
+    },
+    "DMC": {
+      "decomposition_onset_v_vs_li": 4.55,
+      "transition_width_v": 0.18,
+      "dominant_channel": "oxidative alkoxy-carbonate cleavage / gas-forming chemistry",
+      "severity": "medium"
+    }
+  }
+}

@@ -42,6 +42,11 @@ def crossing_voltage(x: np.ndarray, y: np.ndarray, target: float) -> float:
     return float("nan")
 
 
+def logistic_risk(voltage_li: np.ndarray, onset_v: float, width_v: float) -> np.ndarray:
+    width = max(width_v, 1e-6)
+    return 1.0 / (1.0 + np.exp(-(voltage_li - onset_v) / width))
+
+
 def build_branch_summary(params: dict, voltages_li: np.ndarray, offset: float, branch: str):
     rows = []
     for mol_name, redox_params in params.items():
@@ -80,14 +85,19 @@ def main():
     parser = argparse.ArgumentParser(description="Generate formulation stability report")
     parser.add_argument("--reduction-config", required=True)
     parser.add_argument("--oxidation-config", required=True)
+    parser.add_argument("--reaction-config")
     parser.add_argument("--output-dir", required=True)
     parser.add_argument("--target-high-voltage-v", type=float, default=5.0)
     args = parser.parse_args()
 
     red_params = load_redox_parameters_from_json(args.reduction_config)
     ox_params = load_redox_parameters_from_json(args.oxidation_config)
+    reaction_cfg = {}
     with open(args.reduction_config) as f:
         red_cfg = json.load(f)
+    if args.reaction_config:
+        with open(args.reaction_config) as f:
+            reaction_cfg = json.load(f)
     offset = float(red_cfg.get("metadata", {}).get("vacuum_to_li_offset_ev", 1.4))
 
     output_dir = Path(args.output_dir).resolve()
@@ -100,8 +110,44 @@ def main():
     ox_df = build_branch_summary(ox_params, voltages_li_ox, offset, branch="oxidation")
     summary = red_df.merge(ox_df, on="molecule", how="outer")
 
+    reaction_rows = []
+    decomposition_curves = {}
+    for molecule in summary["molecule"]:
+        mol_cfg = reaction_cfg.get("molecules", {}).get(molecule, {})
+        onset_v = mol_cfg.get("decomposition_onset_v_vs_li")
+        width_v = mol_cfg.get("transition_width_v", 0.15)
+        if onset_v is None:
+            reaction_rows.append(
+                {
+                    "molecule": molecule,
+                    "decomposition_onset_v_vs_li": np.nan,
+                    "decomposition_risk_5v": np.nan,
+                    "dominant_channel": "",
+                    "severity": "",
+                }
+            )
+            continue
+
+        curve = logistic_risk(voltages_li_ox, float(onset_v), float(width_v))
+        decomposition_curves[molecule] = curve
+        target_risk = float(logistic_risk(np.array([args.target_high_voltage_v]), float(onset_v), float(width_v))[0])
+        reaction_rows.append(
+            {
+                "molecule": molecule,
+                "decomposition_onset_v_vs_li": float(onset_v),
+                "decomposition_risk_5v": target_risk,
+                "dominant_channel": mol_cfg.get("dominant_channel", ""),
+                "severity": mol_cfg.get("severity", ""),
+            }
+        )
+
+    reaction_df = pd.DataFrame(reaction_rows)
+    summary = summary.merge(reaction_df, on="molecule", how="left")
+
     formulation_low_limit = summary["reduction_onset_10pct_v_vs_li"].max()
-    formulation_high_limit = summary["oxidation_onset_10pct_v_vs_li"].min()
+    oxidation_limit = summary["oxidation_onset_10pct_v_vs_li"].min()
+    decomposition_limit = summary["decomposition_onset_v_vs_li"].min()
+    formulation_high_limit = np.nanmin([oxidation_limit, decomposition_limit])
     window_width = formulation_high_limit - formulation_low_limit
     stable_at_target = bool(args.target_high_voltage_v <= formulation_high_limit)
 
@@ -109,9 +155,10 @@ def main():
     summary["oxidation_rank"] = summary["oxidation_half_wave_50pct_v_vs_li"].rank(ascending=False, method="dense")
     summary["likely_reduce_on_anode"] = summary["reduction_onset_10pct_v_vs_li"] > 0.2
     summary["likely_oxidize_by_target"] = summary["oxidation_onset_10pct_v_vs_li"] <= args.target_high_voltage_v
+    summary["likely_decompose_by_target"] = summary["decomposition_risk_5v"].fillna(0.0) >= 0.5
     summary.to_csv(output_dir / "formulation_stability_summary.csv", index=False)
 
-    fig, axes = plt.subplots(1, 2, figsize=(12, 4.8))
+    fig, axes = plt.subplots(1, 3, figsize=(16, 4.8))
     y = np.arange(len(summary))
 
     axes[0].barh(y, summary["reduction_half_wave_50pct_v_vs_li"], color="#2c7fb8")
@@ -129,6 +176,15 @@ def main():
     axes[1].grid(True, axis="x", alpha=0.3)
     axes[1].legend()
 
+    decomp_bars = summary["decomposition_onset_v_vs_li"].fillna(np.nan)
+    axes[2].barh(y, decomp_bars, color="#756bb1")
+    axes[2].set_yticks(y, labels=summary["molecule"])
+    axes[2].axvline(args.target_high_voltage_v, color="red", linestyle="--", alpha=0.7, label=f"Target {args.target_high_voltage_v:.1f} V")
+    axes[2].set_xlabel("Irreversible Decomposition Onset (V vs Li/Li+)")
+    axes[2].set_title("Failure-Mechanism Risk")
+    axes[2].grid(True, axis="x", alpha=0.3)
+    axes[2].legend()
+
     fig.suptitle("Formulation Stability Screening")
     fig.tight_layout()
     fig.savefig(output_dir / "formulation_stability_window.png", dpi=220)
@@ -142,35 +198,44 @@ def main():
         else:
             f.write(f"- 按当前有效模型，配方在 `{args.target_high_voltage_v:.1f} V vs Li/Li+` 下已经超过预测氧化起始电位，不能视为高压稳定。\n")
         f.write(f"- 预测还原侧稳定下限约为 `{formulation_low_limit:.3f} V vs Li/Li+`。\n")
-        f.write(f"- 预测氧化侧稳定上限约为 `{formulation_high_limit:.3f} V vs Li/Li+`。\n")
+        f.write(f"- 预测可逆氧化上限约为 `{oxidation_limit:.3f} V vs Li/Li+`。\n")
+        if not np.isnan(decomposition_limit):
+            f.write(f"- 预测不可逆分解上限约为 `{decomposition_limit:.3f} V vs Li/Li+`。\n")
+        f.write(f"- 取更严格标准后的有效稳定上限约为 `{formulation_high_limit:.3f} V vs Li/Li+`。\n")
         f.write(f"- 预测电化学稳定窗口宽度约为 `{window_width:.3f} V`。\n\n")
 
         f.write("## 分子排序\n\n")
         for _, row in summary.sort_values("reduction_half_wave_50pct_v_vs_li", ascending=False).iterrows():
             f.write(
                 f"- `{row['molecule']}`: 还原 E1/2 `{row['reduction_half_wave_50pct_v_vs_li']:.3f} V`, "
-                f"氧化 E1/2 `{row['oxidation_half_wave_50pct_v_vs_li']:.3f} V vs Li/Li+`。\n"
+                f"氧化 E1/2 `{row['oxidation_half_wave_50pct_v_vs_li']:.3f} V`, "
+                f"分解起始 `{row['decomposition_onset_v_vs_li']:.3f} V vs Li/Li+`。\n"
             )
+            if isinstance(row["dominant_channel"], str) and row["dominant_channel"]:
+                f.write(f"  主导失效通道: {row['dominant_channel']}。\n")
         f.write("\n## 对实验人员怎么读\n\n")
         f.write("- 左图越靠右，说明越容易在负极侧先被还原。\n")
         f.write("- 右图若落在目标高电压左边，说明在高压正极侧更容易先被氧化。\n")
-        f.write("- 一种分子若既容易在低电位被还原，又容易在高电位被氧化，则它对宽电压窗口是不利的。\n\n")
+        f.write("- 第三张图给出不可逆分解起始，这比只看可逆氧化更接近真实失效机理。\n")
+        f.write("- 一种分子若既容易在低电位被还原，又容易在高电位被氧化/分解，则它对宽电压窗口是不利的。\n\n")
 
         f.write("## 方法步骤\n\n")
         f.write("1. 为每个分子建立还原侧和氧化侧的有效自由能模型。\n")
         f.write("2. 用 Boltzmann 分布计算不同电位下的占有率。\n")
         f.write("3. 提取 onset(10%)、E1/2(50%) 和近完全转化点(90%)。\n")
-        f.write("4. 用还原侧最高 onset 和氧化侧最低 onset 近似配方稳定窗口。\n")
-        f.write("5. 将目标高压（如 5.0 V）与氧化侧窗口上限对比，给出风险判断。\n\n")
+        f.write("4. 额外引入不可逆分解风险层，给每个分子设定高压分解起始和转变宽度。\n")
+        f.write("5. 用还原侧最高 onset、可逆氧化最低 onset、不可逆分解最低 onset 三者共同约束配方稳定窗口。\n")
+        f.write("6. 将目标高压（如 5.0 V）与更严格的上限对比，给出风险判断。\n\n")
 
         f.write("## 原理\n\n")
-        f.write("- 这是一个分子层面的热力学筛选模型。\n")
-        f.write("- 它回答的是“哪一种分子更先进入电子转移不稳定区”。\n")
-        f.write("- 它不是直接求实验电流，而是求 redox 起始与排序。\n\n")
+        f.write("- 这是一个分子层面的热力学筛选模型，并叠加了一个不可逆分解风险层。\n")
+        f.write("- 它回答的是“哪一种分子更先进入电子转移不稳定区，以及哪一种更先进入失效通道”。\n")
+        f.write("- 它不是直接求实验电流，而是求 redox 起始、排序和失效边界。\n\n")
 
         f.write("## 这样做的好处\n\n")
         f.write("- 能在实验之前快速筛掉明显不合适的配方。\n")
         f.write("- 能明确指出是哪一个分子限制了高压或低压稳定性。\n")
+        f.write("- 能把“可逆氧化”和“不可逆分解”分开表达，避免单看氧化电位造成误判。\n")
         f.write("- 能把实验 LSV/CV 的观察转成分子层面的解释和排序。\n\n")
 
         f.write("## 成本\n\n")
@@ -185,11 +250,12 @@ def main():
         f.write("## 精度判断\n\n")
         f.write("- 当前有效模型：定性到半定量。\n")
         f.write("- 如果用实验 onset 或 DFT/SCRF 数据校准，自由能参数可以更接近半定量预测。\n")
-        f.write("- 如果要判断 5 V 真稳定，还必须补上氧化后的分解路径和界面动力学。\n\n")
+        f.write("- 当前分解层仍是有效模型，不是显式反应路径。\n")
+        f.write("- 如果要判断 5 V 真稳定，还必须继续补上氧化后的分解路径、界面动力学和产物演化。\n\n")
 
         f.write("## 下一步优化\n\n")
         f.write("1. 用真实 DFT/溶剂化自由能替换有效 offset。\n")
-        f.write("2. 加入氧化后的不可逆分解通道。\n")
+        f.write("2. 用显式反应路径和势垒替换当前不可逆分解 heuristic。\n")
         f.write("3. 用常电位 MD 提取界面溶剂化修正，降低纯参数模型误差。\n")
         f.write("4. 用实验 LSV/CV onset 数据回标定各类溶剂与添加剂。\n")
         f.write("5. 自动化输入配方 -> 输出稳定窗口、排序和风险标签。\n\n")
