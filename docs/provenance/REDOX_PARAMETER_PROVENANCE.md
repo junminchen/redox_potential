@@ -11,6 +11,10 @@ The project now uses three evidence levels:
 
 These parameters are suitable for screening and ranking. They are not all first-principles truth values.
 
+For a Chinese, experiment-facing explanation of what is directly supported by literature versus what is still a model inference, see:
+
+- [EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/provenance/EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md)
+
 ## Source list
 
 1. Atomic thermodynamics and microkinetics of the reduction mechanism of electrolyte additives to facilitate the formation of solid electrolyte interphases in lithium-ion batteries

@@ -3,6 +3,7 @@
 首先看手册：
 
 - [docs/methods/USER_MANUAL_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/methods/USER_MANUAL_CN.md)
+- [docs/provenance/EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/provenance/EXPERIMENTAL_VALIDATION_AND_INFERENCE_CN.md)
 
 ## Overview
 
