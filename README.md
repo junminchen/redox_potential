@@ -1,6 +1,6 @@
 # redox_potential
 
-OpenMM-based constant-potential MD and voltage sweep workflow for redox-potential studies.
+OpenMM-based constant-potential MD and redox screening workflow for battery electrolytes.
 
 ## Included
 
@@ -9,15 +9,23 @@ OpenMM-based constant-potential MD and voltage sweep workflow for redox-potentia
 - Molecule PDB templates in `pdb_bank/`
 - Input structure `start_with_electrodes.pdb`
 - Workflow and reference docs
-- Lightweight result summary in `results/voltage_sweep_20260311_224838/`
+- Voltage-sweep summary in `results/voltage_sweep_20260311_224838/`
+- Experiment-facing electrolyte screening report in `results/experimental_redox_report_20260311_234115/`
+
+## Key Entry Points
+
+- `run_voltage_sweep.py`: constant-potential sweep driver
+- `generate_experimental_redox_report.py`: build LSV/CV-like plots and a report
+- `config_redox_electrolyte_effective.json`: effective EC/DMC onset-screening model
+- `config_redox_real_template.json`: template for real redox-active molecules
+- `HIGH_VOLTAGE_STABILITY_WORKFLOW.md`: roadmap toward formulation-level 5 V stability screening
+
+## Main Outputs
+
+- `results/experimental_redox_report_20260311_234115/electrolyte_lsv_cv_like.png`
+- `results/experimental_redox_report_20260311_234115/REPORT.md`
+- `results/experimental_redox_report_20260311_234115/electrolyte_redox_summary.csv`
 
 ## Excluded from git
 
 Large generated trajectories and transient run directories are ignored.
-
-## Key result
-
-See:
-- `results/voltage_sweep_20260311_224838/voltage_sweep_results.csv`
-- `results/voltage_sweep_20260311_224838/voltage_sweep_summary.png`
-- `results/voltage_sweep_20260311_224838/RUN_SUMMARY.md`

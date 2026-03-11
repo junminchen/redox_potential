@@ -12,6 +12,7 @@ Allows direct comparison with experimental CV/LSV data.
 
 import os
 import json
+from collections import Counter
 import numpy as np
 import pandas as pd
 from datetime import datetime
@@ -202,17 +203,47 @@ class VoltageSweepSimulation:
             result["q_cathode_std"] = 0.0
 
         # MC sampling for redox molecules
-        # For now, initialize empty redox stats (could integrate full MC)
-        for mol_name in self.redox_params.keys():
+        residue_counts = Counter(res.name for res in sim.pdb.topology.residues())
+        mc_steps = max(200, min(2000, sample_steps // max(report_interval, 1) * 100))
+        for mol_name, redox_params in self.redox_params.items():
+            residue_names = set(redox_params.residue_names)
+            residue_names.add(redox_params.name)
+            n_molecules = sum(
+                count
+                for res_name, count in residue_counts.items()
+                if res_name in residue_names
+            )
+
+            result[f"{mol_name}_n_molecules"] = n_molecules
+            if n_molecules == 0:
+                print(f"  [RedoxMC] {mol_name}: no matching residues found in topology")
+                result[f"{mol_name}_n_mc_accepted"] = 0
+                result[f"{mol_name}_n_mc_attempted"] = 0
+                result[f"{mol_name}_fraction_reduced"] = 0.0
+                result[f"{mol_name}_mean_charge"] = 0.0
+                continue
+
             redox_mc = RedoxMC(
-                self.redox_params[mol_name],
+                redox_params,
                 temperature_k=cfg["md"]["temperature_k"],
                 voltage_v=voltage_v,
             )
-            result[f"{mol_name}_n_mc_accepted"] = 0
-            result[f"{mol_name}_n_mc_attempted"] = 0
-            result[f"{mol_name}_fraction_reduced"] = 0.0
-            result[f"{mol_name}_mean_charge"] = 0.0
+            summary = redox_mc.run_mc_sampling(mc_steps)
+            reduced_occupancy = sum(
+                frac
+                for state, frac in summary["state_occupancy"].items()
+                if redox_params.charge_states[state] < redox_mc.reference_charge
+            )
+
+            result[f"{mol_name}_n_mc_accepted"] = summary["n_accepted"] * n_molecules
+            result[f"{mol_name}_n_mc_attempted"] = summary["n_attempted"] * n_molecules
+            result[f"{mol_name}_fraction_reduced"] = reduced_occupancy
+            result[f"{mol_name}_mean_charge"] = summary["mean_charge_e"]
+            print(
+                f"  [RedoxMC] {mol_name}: n={n_molecules}, "
+                f"fraction_reduced={reduced_occupancy:.3f}, "
+                f"mean_charge={summary['mean_charge_e']:.3f} e"
+            )
 
         print(f"  ✓ Completed: Q_cath={result['q_cathode_mean']:.3f} e, Q_anode={result['q_anode_mean']:.3f} e")
 
@@ -291,6 +322,10 @@ class RedoxPotentialAnalyzer:
             return np.nan
 
         for i in range(len(voltages) - 1):
+            if fractions[i] == 0.5:
+                return voltages[i]
+            if fractions[i + 1] == 0.5:
+                return voltages[i + 1]
             if (fractions[i] - 0.5) * (fractions[i+1] - 0.5) < 0:
                 # Root between i and i+1
                 v1, v2 = voltages[i], voltages[i+1]
@@ -308,7 +343,8 @@ class RedoxPotentialAnalyzer:
         """
         Convert voltage from vacuum reference to Li/Li+ reference.
 
-        In organic electrolyte, Li/Li+ ≈ vacuum - 1.4 eV
+        In organic electrolyte, Li/Li+ is typically about +1.4 V above the
+        vacuum-referenced value used here.
 
         Args:
             voltage_v_vs_vacuum: voltage in V vs vacuum
@@ -317,7 +353,7 @@ class RedoxPotentialAnalyzer:
         Returns:
             voltage in V vs Li/Li+
         """
-        return voltage_v_vs_vacuum - offset_ev
+        return voltage_v_vs_vacuum + offset_ev
 
     @staticmethod
     def compare_with_lsv(

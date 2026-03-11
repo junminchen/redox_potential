@@ -1,0 +1,71 @@
+{
+  "_comment": [
+    "Effective redox-onset model for the existing EC/DMC electrolyte system.",
+    "This file is intended for estimating reduction onset within the present",
+    "coarse-grained RedoxMC model, not for final ab initio thermochemistry.",
+    "",
+    "Literature-inspired targets used here:",
+    "  EC reduction onset  ~ 0.47 V vs Li/Li+  -> about -0.93 V vs vacuum",
+    "  DMC reduction onset ~ 0.38 V vs Li/Li+  -> about -1.02 V vs vacuum",
+    "",
+    "To represent those onset voltages in the current model, we use direct",
+    "state_free_energy_offsets_kjmol instead of gas-phase EA placeholders.",
+    "At DeltaG(V)=offset + F*V, the crossing occurs when V = -offset/F."
+  ],
+  "metadata": {
+    "electrolyte_composition": "1M LiPF6 in EC:DMC",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "recommended_voltage_window_v_vs_vacuum": [-1.6, -0.4]
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": ["ECA", "EC1", "EC"],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": 0.0
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": 89.731358
+      },
+      "allowed_states": [0, -1],
+      "partition_coefficient": 0.0
+    },
+    "DMC": {
+      "residue_names": ["DMC", "DMC1", "DME"],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": 0.0
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": 98.414988
+      },
+      "allowed_states": [0, -1],
+      "partition_coefficient": 0.0
+    }
+  },
+  "sweep_parameters": {
+    "voltage_start_v_vs_vacuum": -1.6,
+    "voltage_end_v_vs_vacuum": -0.4,
+    "voltage_step_v": 0.1,
+    "equil_steps_per_voltage": 5000,
+    "sample_steps_per_voltage": 10000,
+    "report_interval": 1000,
+    "platform": "OpenCL"
+  },
+  "md_parameters": {
+    "temperature_k": 300.0,
+    "friction_ps": 1.0,
+    "timestep_fs": 2.0,
+    "nonbonded_cutoff_nm": 1.2
+  }
+}

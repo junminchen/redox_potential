@@ -99,18 +99,18 @@ def test_redox_mc():
         print(f"    - E(state 0): {e_state_0:.3f} kJ/mol")
         print(f"    - E(state -1): {e_state_m1:.3f} kJ/mol")
         print(f"    - ΔE: {(e_state_m1 - e_state_0):.3f} kJ/mol")
+        assert e_state_m1 != e_state_0
 
-        # Test MC move acceptance
-        for i in range(10):
-            accepted, new_state = mc.attempt_transition(
-                current_state=0,
-                pe_solv_from=0.0,
-                pe_solv_to=0.0,
-            )
+        # Test MC sampling
+        summary = mc.run_mc_sampling(n_steps=100)
+        occupancy = mc.get_state_occupancy()
 
         acc_rate = mc.get_acceptance_rate()
-        print(f"  ✓ Completed 10 MC moves")
+        print(f"  ✓ Completed 100 MC moves")
         print(f"    - Acceptance rate: {acc_rate:.3f}")
+        print(f"    - Occupancy: {occupancy}")
+        assert summary["state_history_length"] == 100
+        assert sum(occupancy.values()) > 0.99
 
         return True
 

@@ -1,0 +1,76 @@
+{
+  "_comment": [
+    "Template redox configuration for real redox-active molecules.",
+    "Use this file after adding matching residues to the simulation PDB/topology.",
+    "The current start_with_electrodes.pdb contains ECA/DMC/LiA/PF6 only, so these",
+    "species will not be sampled until the structure actually includes them.",
+    "",
+    "These values are literature-inspired starting estimates for workflow calibration.",
+    "They are appropriate as templates, not as final production thermochemistry."
+  ],
+  "metadata": {
+    "electrolyte_composition": "1M LiPF6 in EC:DMC",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "note": "voltage_v is total cell voltage vs vacuum; CPF uses cathode=+V/2 and anode=-V/2"
+  },
+  "molecules": {
+    "BQ": {
+      "residue_names": ["BQ", "BQU", "BQ1"],
+      "_comment_bq": [
+        "1,4-Benzoquinone (BQ), a real reversible organic redox molecule.",
+        "Typical first reduction in aprotic electrolyte is around -2.0 V vs Li/Li+",
+        "which corresponds to about -3.4 V vs vacuum with a +1.4 V offset.",
+        "The second reduction is much more negative and may fall near or outside the",
+        "present voltage window depending on electrolyte stabilization."
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0,
+        "-2": -2.0
+      },
+      "electron_affinities": {
+        "0,-1": 1.53,
+        "-1,-2": -0.20
+      },
+      "allowed_states": [0, -1, -2],
+      "partition_coefficient": -2.5
+    },
+    "AQ": {
+      "residue_names": ["AQ", "AQN", "AQ1"],
+      "_comment_aq": [
+        "Anthraquinone (AQ) template for a second real quinone redox probe.",
+        "AQ is generally easier to reduce than BQ in many aprotic media and is a",
+        "common organic battery redox motif. Tune these values against your own DFT",
+        "or experimental half-wave potentials before production use."
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0,
+        "-2": -2.0
+      },
+      "electron_affinities": {
+        "0,-1": 1.90,
+        "-1,-2": 0.15
+      },
+      "allowed_states": [0, -1, -2],
+      "partition_coefficient": -2.0
+    }
+  },
+  "sweep_parameters": {
+    "voltage_start_v_vs_vacuum": -4.5,
+    "voltage_end_v_vs_vacuum": -2.5,
+    "voltage_step_v": 0.1,
+    "equil_steps_per_voltage": 5000,
+    "sample_steps_per_voltage": 10000,
+    "report_interval": 1000,
+    "platform": "OpenCL"
+  },
+  "md_parameters": {
+    "temperature_k": 300.0,
+    "friction_ps": 1.0,
+    "timestep_fs": 2.0,
+    "nonbonded_cutoff_nm": 1.2
+  }
+}
