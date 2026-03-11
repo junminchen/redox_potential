@@ -1,0 +1,62 @@
+{
+  "_comment": [
+    "Explicit reaction-pathway screening prototype for high-voltage instability.",
+    "Each molecule can have multiple decomposition channels with a reference barrier",
+    "and a voltage-dependent barrier-lowering term.",
+    "",
+    "This is still an effective kinetics model, but it is one step closer to real",
+    "failure chemistry than a single decomposition onset value."
+  ],
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "temperature_k": 300.0,
+    "default_rate_threshold_s^-1": 0.0001,
+    "model_equation": "k(V) = (kBT/h) * exp(-DeltaG_dagger(V)/kT)"
+  },
+  "molecules": {
+    "EC": {
+      "channels": [
+        {
+          "name": "EC radical-cation ring opening",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.20,
+          "barrier_at_onset_kjmol": 95.0,
+          "barrier_slope_kjmol_per_v": 30.0,
+          "floor_barrier_kjmol": 35.0,
+          "dominant_products": "ring-opened carbonate fragments / interphase precursors"
+        },
+        {
+          "name": "EC oxidative decarboxylation",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.35,
+          "barrier_at_onset_kjmol": 105.0,
+          "barrier_slope_kjmol_per_v": 24.0,
+          "floor_barrier_kjmol": 45.0,
+          "dominant_products": "CO2-evolving oxidation fragments"
+        }
+      ]
+    },
+    "DMC": {
+      "channels": [
+        {
+          "name": "DMC alkoxy-carbonate cleavage",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.55,
+          "barrier_at_onset_kjmol": 100.0,
+          "barrier_slope_kjmol_per_v": 28.0,
+          "floor_barrier_kjmol": 38.0,
+          "dominant_products": "methoxy / carbonate cleavage fragments"
+        },
+        {
+          "name": "DMC oxidative demethylation",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.70,
+          "barrier_at_onset_kjmol": 110.0,
+          "barrier_slope_kjmol_per_v": 20.0,
+          "floor_barrier_kjmol": 48.0,
+          "dominant_products": "gas-forming oxidation products"
+        }
+      ]
+    }
+  }
+}
