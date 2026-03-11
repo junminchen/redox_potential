@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "temperature_k": 300.0,
+    "default_rate_threshold_s^-1": 0.0001,
+    "model_equation": "k(V) = (kBT/h) * exp(-DeltaG_dagger(V)/kT)"
+  },
+  "molecules": {
+    "EC": {
+      "channels": [
+        {
+          "name": "EC radical-cation ring opening",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.20,
+          "barrier_at_onset_kjmol": 95.0,
+          "barrier_slope_kjmol_per_v": 30.0,
+          "floor_barrier_kjmol": 35.0,
+          "dominant_products": "ring-opened carbonate fragments / CEI precursors"
+        }
+      ]
+    },
+    "EMC": {
+      "channels": [
+        {
+          "name": "EMC oxidative carbonate cleavage",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.65,
+          "barrier_at_onset_kjmol": 104.0,
+          "barrier_slope_kjmol_per_v": 24.0,
+          "floor_barrier_kjmol": 44.0,
+          "dominant_products": "linear carbonate oxidation fragments"
+        }
+      ]
+    }
+  }
+}

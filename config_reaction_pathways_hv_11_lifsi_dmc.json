@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "temperature_k": 300.0,
+    "default_rate_threshold_s^-1": 0.0001,
+    "model_equation": "k(V) = (kBT/h) * exp(-DeltaG_dagger(V)/kT)"
+  },
+  "molecules": {
+    "DMC": {
+      "channels": [
+        {
+          "name": "DMC HCE alkoxy-carbonate cleavage",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.85,
+          "barrier_at_onset_kjmol": 108.0,
+          "barrier_slope_kjmol_per_v": 26.0,
+          "floor_barrier_kjmol": 46.0,
+          "dominant_products": "carbonate cleavage fragments"
+        },
+        {
+          "name": "DMC HCE oxidative demethylation",
+          "kind": "oxidation",
+          "onset_v_vs_li": 5.00,
+          "barrier_at_onset_kjmol": 112.0,
+          "barrier_slope_kjmol_per_v": 18.0,
+          "floor_barrier_kjmol": 50.0,
+          "dominant_products": "gas-forming oxidation fragments"
+        }
+      ]
+    }
+  }
+}

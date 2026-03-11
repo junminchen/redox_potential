@@ -1,0 +1,30 @@
+{
+  "_comment": [
+    "Semi-empirical screening preset for a conventional carbonate baseline: 1 M LiPF6 in EC:EMC = 3:7 by wt.",
+    "Used as a force-field-covered comparison against HCE examples."
+  ],
+  "metadata": {
+    "electrolyte_composition": "1 M LiPF6 in EC:EMC (3:7)",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": ["ECA", "EC1", "EC"],
+      "charge_states": {"0": 0.0, "-1": -1.0},
+      "electron_affinities": {"0,-1": 0.0},
+      "state_free_energy_offsets_kjmol": {"0": 0.0, "-1": 89.731358},
+      "allowed_states": [0, -1],
+      "partition_coefficient": 0.0
+    },
+    "EMC": {
+      "residue_names": ["EMC"],
+      "charge_states": {"0": 0.0, "-1": -1.0},
+      "electron_affinities": {"0,-1": 0.0},
+      "state_free_energy_offsets_kjmol": {"0": 0.0, "-1": 106.1335},
+      "allowed_states": [0, -1],
+      "partition_coefficient": 0.0
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "temperature_k": 300.0,
+    "default_rate_threshold_s^-1": 0.0001,
+    "model_equation": "k(V) = (kBT/h) * exp(-DeltaG_dagger(V)/kT)"
+  },
+  "molecules": {
+    "EC": {
+      "channels": [
+        {
+          "name": "EC HCE radical-cation ring opening",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.70,
+          "barrier_at_onset_kjmol": 103.0,
+          "barrier_slope_kjmol_per_v": 24.0,
+          "floor_barrier_kjmol": 42.0,
+          "dominant_products": "ring-opened carbonate fragments / CEI precursors"
+        },
+        {
+          "name": "EC HCE oxidative decarboxylation",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.90,
+          "barrier_at_onset_kjmol": 110.0,
+          "barrier_slope_kjmol_per_v": 18.0,
+          "floor_barrier_kjmol": 48.0,
+          "dominant_products": "CO2-evolving oxidation fragments"
+        }
+      ]
+    }
+  }
+}

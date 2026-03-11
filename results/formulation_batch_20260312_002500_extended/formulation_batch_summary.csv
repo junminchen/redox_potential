@@ -1,0 +1,5 @@
+formulation,target_high_voltage_v,reduction_low_limit_v_vs_li,oxidation_high_limit_v_vs_li,pathway_high_limit_v_vs_li,effective_high_limit_v_vs_li,stable_at_target,limiting_molecule,limiting_factor,limiting_reduction_molecule,limiting_pathway_molecule
+1:1.1 LiFSI in DMC,5.0,0.1568973278753896,5.093107285758513,5.292032540452738,5.093107285758513,True,DMC,reversible_oxidation,DMC,DMC
+LiFSI:EC 1:4,5.0,0.2568969766944239,4.893107988223685,4.971468117113027,4.893107988223685,False,EC,reversible_oxidation,EC,EC
+4 m LiFSI in DME,4.5,0.006892567418437788,4.443109568825689,4.579272630729607,4.443109568825689,False,DME,reversible_oxidation,DME,DME
+1 M LiPF6 in EC:EMC (3:7),4.5,0.5268927714775167,4.343107233860316,3.5,3.5,False,EC,reactive_pathway,EC,EC

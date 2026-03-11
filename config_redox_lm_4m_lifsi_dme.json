@@ -1,0 +1,23 @@
+{
+  "_comment": [
+    "Semi-empirical screening preset for a classic Li-metal HCE: 4 m LiFSI in DME.",
+    "Literature anchor: 4 m LiFSI/DME improves Li metal reversibility and can support >4 V class operation.",
+    "This file is for formulation screening, not final quantitative prediction."
+  ],
+  "metadata": {
+    "electrolyte_composition": "4 m LiFSI in DME",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4
+  },
+  "molecules": {
+    "DME": {
+      "residue_names": ["DME"],
+      "charge_states": {"0": 0.0, "-1": -1.0},
+      "electron_affinities": {"0,-1": 0.0},
+      "state_free_energy_offsets_kjmol": {"0": 0.0, "-1": 139.90375},
+      "allowed_states": [0, -1],
+      "partition_coefficient": 0.0
+    }
+  }
+}

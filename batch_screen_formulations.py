@@ -153,13 +153,15 @@ def evaluate_formulation(entry: dict, base_dir: Path) -> tuple[dict, pd.DataFram
     mol_summary = mol_summary.merge(pathway_df, on="molecule", how="left")
 
     reduction_limit = float(mol_summary["reduction_onset_10pct_v_vs_li"].max())
-    oxidation_limit = float(mol_summary["oxidation_onset_10pct_v_vs_li"].min())
-    pathway_limit = float(mol_summary["pathway_failure_threshold_v_vs_li"].min())
+    oxidation_series = mol_summary["oxidation_onset_10pct_v_vs_li"].dropna()
+    pathway_series = mol_summary["pathway_failure_threshold_v_vs_li"].dropna()
+    oxidation_limit = float(oxidation_series.min()) if not oxidation_series.empty else float("nan")
+    pathway_limit = float(pathway_series.min()) if not pathway_series.empty else float("nan")
     effective_high_limit = float(np.nanmin([oxidation_limit, pathway_limit]))
 
     limiting_reduction = mol_summary.loc[mol_summary["reduction_onset_10pct_v_vs_li"].idxmax(), "molecule"]
-    limiting_oxidation = mol_summary.loc[mol_summary["oxidation_onset_10pct_v_vs_li"].idxmin(), "molecule"]
-    limiting_pathway = mol_summary.loc[mol_summary["pathway_failure_threshold_v_vs_li"].idxmin(), "molecule"]
+    limiting_oxidation = mol_summary.loc[oxidation_series.idxmin(), "molecule"] if not oxidation_series.empty else ""
+    limiting_pathway = mol_summary.loc[pathway_series.idxmin(), "molecule"] if not pathway_series.empty else ""
     if np.isnan(pathway_limit) or oxidation_limit <= pathway_limit:
         limiting_factor = "reversible_oxidation"
         limiting_molecule = limiting_oxidation

@@ -1,0 +1,22 @@
+{
+  "_comment": [
+    "Semi-empirical oxidation preset for LiFSI:EC 1:4.",
+    "Target half-wave is placed near 4.95 V vs Li/Li+ to reflect the reported high-voltage tolerance of concentrated LiFSI:EC."
+  ],
+  "metadata": {
+    "electrolyte_composition": "LiFSI:EC 1:4",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": ["ECA", "EC1", "EC"],
+      "charge_states": {"0": 0.0, "1": 1.0},
+      "electron_affinities": {"0,1": 0.0},
+      "state_free_energy_offsets_kjmol": {"0": 0.0, "1": 342.523},
+      "allowed_states": [0, 1],
+      "partition_coefficient": 0.0
+    }
+  }
+}

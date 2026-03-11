@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "temperature_k": 300.0,
+    "default_rate_threshold_s^-1": 0.0001,
+    "model_equation": "k(V) = (kBT/h) * exp(-DeltaG_dagger(V)/kT)"
+  },
+  "molecules": {
+    "DME": {
+      "channels": [
+        {
+          "name": "DME oxidative C-O cleavage",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.35,
+          "barrier_at_onset_kjmol": 102.0,
+          "barrier_slope_kjmol_per_v": 24.0,
+          "floor_barrier_kjmol": 40.0,
+          "dominant_products": "ether cleavage fragments / alkoxides"
+        },
+        {
+          "name": "DME dehydrogenative oxidation",
+          "kind": "oxidation",
+          "onset_v_vs_li": 4.55,
+          "barrier_at_onset_kjmol": 108.0,
+          "barrier_slope_kjmol_per_v": 20.0,
+          "floor_barrier_kjmol": 46.0,
+          "dominant_products": "oxidized ether fragments"
+        }
+      ]
+    }
+  }
+}
