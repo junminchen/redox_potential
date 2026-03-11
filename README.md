@@ -4,6 +4,10 @@
 
 - [docs/methods/USER_MANUAL_CN.md](/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/docs/methods/USER_MANUAL_CN.md)
 
+## Overview
+
+![Project overview](docs/notes/project_overview.svg)
+
 ## Layout
 
 - `configs/`

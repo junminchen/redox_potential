@@ -16,6 +16,10 @@
 - `配方级 high-voltage screening`
 - `PySCF -> screening config` 接口
 
+## 1.1 总览图
+
+![Project overview](../notes/project_overview.svg)
+
 ## 2. 当前目录结构
 
 ```text
