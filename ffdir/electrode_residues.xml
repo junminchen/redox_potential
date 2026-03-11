@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- OPLS-compatible electrode residue definitions.
+     CAT = cathode atoms (element C, mass 0, frozen)
+     ANO = anode   atoms (element N, mass 0, frozen)
+     Charges start at 0.0 and are managed dynamically by ConstantPotentialForce. -->
+<ForceField>
+  <Residues>
+    <Residue name="CAT">
+      <Atom name="CA" type="E-CAT"/>
+    </Residue>
+    <Residue name="ANO">
+      <Atom name="AN" type="E-ANO"/>
+    </Residue>
+  </Residues>
+</ForceField>

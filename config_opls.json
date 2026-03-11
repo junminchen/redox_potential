@@ -1,0 +1,66 @@
+{
+  "_comment": [
+    "OPLS constant-potential MD configuration for run_opls.py.",
+    "",
+    "pdb: path to the assembled system PDB containing electrode chains + electrolyte.",
+    "     Cathode must be chain 0 (residue CAT, atom CA).",
+    "     Anode   must be chain 1 (residue ANO, atom AN).",
+    "     Electrolyte occupies the remaining chains.",
+    "",
+    "forcefield_xml: ordered list of OpenMM XML force field files.",
+    "  Modify the opls_salt/solvent paths to match your installation of PhyNEO.",
+    "",
+    "electrode.voltage_v: applied voltage (V). Cathode = +V/2, anode = -V/2.",
+    "electrode.gaussian_width_nm: width of Gaussian charge distribution on electrode atoms.",
+    "electrode.thomas_fermi_scale_invnm: Thomas-Fermi screening length (nm^-1).",
+    "electrode.cg_error_tol: convergence tolerance for the CG charge solver.",
+    "electrode.use_chain_index: true = distinguish electrodes by chain index (recommended).",
+    "                           false = distinguish by residue name (cathode_resname/anode_resname).",
+    "",
+    "cell: optional explicit box dimensions (nm). Only needed if the PDB has no CRYST1 record.",
+    "",
+    "md.platform: CUDA | OpenCL | CPU"
+  ],
+  "pdb": "start_with_electrodes.pdb",
+  "forcefield_xml": [
+    "ffdir/opls_salt.xml",
+    "ffdir/opls_solvent.xml",
+    "ffdir/electrode_residues.xml",
+    "ffdir/electrode_ff.xml"
+  ],
+  "cell": {
+    "box_x_nm": 5.5,
+    "box_y_nm": 5.5,
+    "box_z_nm": 9.0
+  },
+  "electrode": {
+    "voltage_v": 2.0,
+    "gaussian_width_nm": 0.20,
+    "thomas_fermi_scale_invnm": 5.0,
+    "cg_error_tol": 1e-4,
+    "use_charge_constraint": true,
+    "charge_constraint_target_e": 0.0,
+    "use_chain_index": true,
+    "cathode_chain_index": 0,
+    "anode_chain_index": 1,
+    "_alt_comment": "Set use_chain_index=false and provide cathode_resname/anode_resname if needed",
+    "cathode_resname": "CAT",
+    "anode_resname": "ANO"
+  },
+  "md": {
+    "temperature_k": 300.0,
+    "friction_ps": 1.0,
+    "timestep_fs": 2.0,
+    "nonbonded_cutoff_nm": 1.2,
+    "platform": "OpenCL"
+  },
+  "run": {
+    "equil_steps": 10000,
+    "prod_steps": 50000,
+    "report_interval": 1000,
+    "dcd_file": "md_opls.dcd",
+    "log_file": "md_opls.log",
+    "charges_file": "electrode_charges.log",
+    "final_pdb": "final_opls.pdb"
+  }
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- OPLS-compatible electrode force field parameters.
+     E-CAT: cathode atom type (element C, mass 0 = frozen)
+     E-ANO: anode   atom type (element N, mass 0 = frozen)
+
+     Different elements (C vs N) are used to distinguish cathode from anode
+     in the topology without needing separate residue chains.
+
+     sigma/epsilon: graphite-like C-C LJ parameters to provide physical
+     repulsion between electrode and electrolyte atoms.
+     charge = 0.0: initial value; ConstantPotentialForce manages charges at runtime. -->
+<ForceField>
+  <AtomTypes>
+    <Type name="E-CAT" class="E-CAT" element="C" mass="0.0"/>
+    <Type name="E-ANO" class="E-ANO" element="N" mass="0.0"/>
+  </AtomTypes>
+  <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+    <Atom class="E-CAT" charge="0.0" sigma="0.340" epsilon="0.3600"/>
+    <Atom class="E-ANO" charge="0.0" sigma="0.340" epsilon="0.3600"/>
+  </NonbondedForce>
+</ForceField>

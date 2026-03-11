@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.so
+*.dcd
+md_opls.log
+electrode_charges.log
+final_opls.pdb
+sweep_results/
+debug_runs/
+.DS_Store

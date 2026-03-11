@@ -1,0 +1,9 @@
+# Core simulation engine
+openmm>=8.4
+
+# Numerical and data
+numpy>=1.24
+pandas>=1.5
+
+# Standard library (no install needed, listed for reference)
+# json, os, sys, argparse, random, datetime, copy, shutil

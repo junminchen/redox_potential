@@ -1,0 +1,134 @@
+{
+  "_comment": [
+    "Redox parameters for voltage sweep simulations in 1M LiPF6 EC/DMC electrolyte.",
+    "",
+    "This configuration defines electrochemically active molecules and their charge states,",
+    "electron affinities, and solvation free energies for RedoxMC sampling.",
+    "",
+    "For each molecule, provide:",
+    "  - residue_names: list of PDB residue names to identify this molecule",
+    "  - charge_states: dict mapping charge state (int) → charge in elementary charges",
+    "  - electron_affinities: dict mapping (state_from, state_to) → EA in eV",
+    "      Positive EA means electron addition is favorable in gas phase.",
+    "      For example: {(0, -1): 0.5, (-1, -2): -0.8} for sequential 1-electron reductions.",
+    "  - allowed_states: list of accessible charge states at this electrode",
+    "  - partition_coefficient: solvation ΔG (kJ/mol) relative to reference state",
+    "",
+    "Physical interpretation:",
+    "  The redox potential is determined by the balance:",
+    "    E_redox (V vs vacuum) = (EA_gas + ΔG_solv) / F",
+    "  where F = 96.485 kJ/mol/V is Faraday's constant.",
+    "",
+    "EXAMPLE FOR REAL SYSTEM:",
+    "  For benzoquinone (BQ): EA(0→-1) ≈ 1.53 eV, ΔG_solv ≈ -1.2 eV",
+    "  → E_redox ≈ -(1.53 - 1.2) / 96.485 ≈ -3.4 V vs vacuum",
+    "       ≈ -1.98 V vs Li/Li+ (if offset ≈ 1.4V)",
+    "",
+    "Note: EC and DMC are primarily solvents. To use this configuration:",
+    "  Option 1: Replace with real redox-active species (e.g., benzoquinone, dissolved O2)",
+    "  Option 2: Model EC/DMC as having small redox cross-sections (unlikely but included here for framework completeness)",
+    "  Option 3: Model solvation-shell decomposition reactions"
+  ],
+  "metadata": {
+    "electrolyte_composition": "1M LiPF6 in EC:DMC",
+    "temperature_k": 300.0,
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": ["ECA", "EC1"],
+      "_comment_ec": [
+        "Ethylene Carbonate (EC) - primary solvent component.",
+        "In reality, EC is not redox-active at normal potentials.",
+        "These parameters are ILLUSTRATIVE ONLY for framework testing.",
+        "",
+        "For an EC reduction reaction: EC + 2e⁻ + 2Li⁺ → EC²⁻ species",
+        "Hypothetical EA based on literature ab initio calculations (~3-4 eV reduction barrier):"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0,
+        "-2": -2.0
+      },
+      "electron_affinities": {
+        "0,-1": 2.1,
+        "-1,-2": 1.8
+      },
+      "allowed_states": [0, -1, -2],
+      "partition_coefficient": -5.0
+    },
+    "DMC": {
+      "residue_names": ["DMC1", "DME"],
+      "_comment_dmc": [
+        "Dimethyl Carbonate (DMC) - secondary solvent component.",
+        "Similar to EC, DMC is typically not redox-active at accessible potentials.",
+        "Parameters below are for framework demonstration.",
+        "",
+        "For a DMC reduction: DMC + e⁻ → DMC⁻",
+        "Estimated from chemical stability and electronic structure:"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": 1.5
+      },
+      "allowed_states": [0, -1],
+      "partition_coefficient": -3.0
+    },
+    "BQ_EXAMPLE": {
+      "_comment_bq": [
+        "EXAMPLE: Benzoquinone (BQ) - a real redox-active molecule.",
+        "Use this as a template when replacing EC/DMC with actual redox species.",
+        "",
+        "Benzoquinone: BQ + e⁻ ⇌ BQ⁻ (semiquinone radical)",
+        "               BQ⁻ + e⁻ ⇌ BQ²⁻ (quinone dianion)",
+        "",
+        "Typical values from literature:",
+        "  E₁° (BQ/BQ⁻)   ≈ -3.4 V vs vacuum ≈ -1.98 V vs Li/Li+",
+        "  E₂° (BQ⁻/BQ²⁻) ≈ -4.2 V vs vacuum ≈ -2.78 V vs Li/Li+",
+        "",
+        "In gas phase (DFT):",
+        "  EA₁(BQ→BQ⁻)   ≈ 1.53 eV  (favorable)",
+        "  EA₂(BQ⁻→BQ²⁻) ≈ -0.2 eV  (unfavorable, but feasible with solvation help)",
+        "",
+        "Solvation corrections (from polarizable continuum SCRF):",
+        "  ΔG_solv(BQ)   ≈ -0.5 eV",
+        "  ΔG_solv(BQ⁻)  ≈ -3.5 eV  (large stabilization from negative charge)",
+        "  ΔG_solv(BQ²⁻) ≈ -7.0 eV  (even larger)",
+        "",
+        "Combined redox potential (thermod.):",
+        "  E_redox ≈ [EA + (ΔG_solv_ox - ΔG_solv_red)] / F"
+      ],
+      "residue_names": ["BQ", "BQU", "BQMX"],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0,
+        "-2": -2.0
+      },
+      "electron_affinities": {
+        "0,-1": 1.53,
+        "-1,-2": -0.2
+      },
+      "allowed_states": [0, -1, -2],
+      "partition_coefficient": -2.5
+    }
+  },
+  "sweep_parameters": {
+    "voltage_start_v_vs_vacuum": -4.5,
+    "voltage_end_v_vs_vacuum": -2.5,
+    "voltage_step_v": 0.1,
+    "equil_steps_per_voltage": 5000,
+    "sample_steps_per_voltage": 10000,
+    "report_interval": 1000,
+    "platform": "CUDA"
+  },
+  "md_parameters": {
+    "temperature_k": 300.0,
+    "friction_ps": 1.0,
+    "timestep_fs": 2.0,
+    "nonbonded_cutoff_nm": 1.2
+  }
+}
