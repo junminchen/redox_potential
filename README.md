@@ -10,6 +10,10 @@
 
 ![Project overview](docs/notes/project_overview.svg)
 
+## Interface To State Workflow
+
+![Interface-state workflow](docs/notes/interface_state_workflow.svg)
+
 ## Layout
 
 - `configs/`

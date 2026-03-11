@@ -25,6 +25,10 @@
 
 ![Project overview](../notes/project_overview.svg)
 
+## 1.2 界面构型到状态判定流程图
+
+![Interface-state workflow](../notes/interface_state_workflow.svg)
+
 ## 2. 当前目录结构
 
 ```text

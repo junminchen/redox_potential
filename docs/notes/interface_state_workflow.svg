@@ -1,0 +1,123 @@
+<svg width="1480" height="980" viewBox="0 0 1480 980" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Interface configuration to redox-state workflow</title>
+  <desc id="desc">Flowchart showing how constant-potential interface MD provides structure, how RedoxMC provides state statistics, and how pathway risk adds irreversible failure screening.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4efe5"/>
+      <stop offset="100%" stop-color="#eef4f1"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f3942"/>
+      <stop offset="100%" stop-color="#315763"/>
+    </linearGradient>
+    <style>
+      .title { font: 700 34px 'DejaVu Sans', sans-serif; fill: #ffffff; }
+      .subtitle { font: 500 17px 'DejaVu Sans', sans-serif; fill: #dce8ec; }
+      .section { font: 700 24px 'DejaVu Sans', sans-serif; fill: #203038; }
+      .label { font: 700 20px 'DejaVu Sans', sans-serif; fill: #1e2f36; }
+      .body { font: 500 16px 'DejaVu Sans', sans-serif; fill: #344750; }
+      .small { font: 500 15px 'DejaVu Sans', sans-serif; fill: #51636b; }
+      .mono { font: 500 15px 'DejaVu Sans Mono', monospace; fill: #22353c; }
+      .monoLight { font: 500 15px 'DejaVu Sans Mono', monospace; fill: #f3f8fb; }
+      .card { fill: #ffffff; stroke: #bfcdc9; stroke-width: 2; rx: 20; }
+      .teal { fill: #dcefeb; stroke: #7aa59c; stroke-width: 2; rx: 18; }
+      .sand { fill: #f4ead8; stroke: #c59a61; stroke-width: 2; rx: 18; }
+      .blue { fill: #e6edf5; stroke: #7a96b2; stroke-width: 2; rx: 18; }
+      .gray { fill: #f7f8f8; stroke: #c8d0d1; stroke-width: 2; rx: 18; }
+      .warn { fill: #fbefdf; stroke: #d08d2f; stroke-width: 2; rx: 18; }
+      .line { stroke: #607a74; stroke-width: 3.5; fill: none; }
+      .dash { stroke: #92a8a4; stroke-width: 2.5; fill: none; stroke-dasharray: 9 8; }
+    </style>
+  </defs>
+
+  <rect width="1480" height="980" fill="url(#bg)"/>
+
+  <rect x="42" y="34" width="1396" height="110" rx="28" fill="url(#banner)"/>
+  <text x="74" y="78" class="title">Interface Configuration -> Redox State -> Failure Risk</text>
+  <text x="74" y="108" class="subtitle">What constant-potential MD gives you, what RedoxMC gives you, and what screening-only mode cannot know directly</text>
+
+  <text x="54" y="196" class="section">A. Explicit Interface Mode: this is where orientation and local structure come from</text>
+  <rect x="42" y="214" width="1396" height="412" class="card"/>
+
+  <rect x="72" y="250" width="314" height="312" class="teal"/>
+  <text x="96" y="286" class="label">1. Constant-potential interface MD</text>
+  <text x="96" y="320" class="body">Input:</text>
+  <text x="96" y="348" class="mono">electrodes + electrolyte + salt + box</text>
+  <text x="96" y="378" class="body">What it actually samples:</text>
+  <text x="96" y="406" class="small">- distance to electrode</text>
+  <text x="96" y="432" class="small">- molecular orientation / adsorption geometry</text>
+  <text x="96" y="458" class="small">- Li+ coordination</text>
+  <text x="96" y="484" class="small">- anion enrichment / double-layer structure</text>
+  <text x="96" y="510" class="small">- electrode polarization response</text>
+  <text x="96" y="538" class="body">This is the only layer that can tell you</text>
+  <text x="96" y="564" class="body">how the molecule is arranged at the interface.</text>
+
+  <rect x="432" y="250" width="296" height="312" class="sand"/>
+  <text x="456" y="286" class="label">2. Local environment descriptors</text>
+  <text x="456" y="320" class="body">Derived from MD snapshots or ensemble:</text>
+  <text x="456" y="350" class="small">- local electrostatic stabilization</text>
+  <text x="456" y="376" class="small">- solvation-shell composition</text>
+  <text x="456" y="402" class="small">- near-electrode electric field</text>
+  <text x="456" y="428" class="small">- image-charge / polarization effects</text>
+  <text x="456" y="454" class="small">- configuration-dependent free-energy shifts</text>
+  <text x="456" y="492" class="body">These are the quantities that should feed</text>
+  <text x="456" y="518" class="body">state energies if you want interface-aware redox.</text>
+
+  <rect x="774" y="250" width="300" height="312" class="blue"/>
+  <text x="798" y="286" class="label">3. RedoxMC / onset / oxidation</text>
+  <text x="798" y="320" class="body">Given a local environment, this layer asks:</text>
+  <text x="798" y="350" class="small">- which charge state is most stable?</text>
+  <text x="798" y="376" class="small">- what is fraction_reduced(V)?</text>
+  <text x="798" y="402" class="small">- what is fraction_oxidized(V)?</text>
+  <text x="798" y="430" class="body">Outputs:</text>
+  <text x="798" y="458" class="mono">reduction onset</text>
+  <text x="798" y="484" class="mono">oxidation onset</text>
+  <text x="798" y="510" class="mono">E1/2 and LSV/CV-like proxies</text>
+  <text x="798" y="546" class="body">This layer gives state preference,</text>
+  <text x="798" y="572" class="body">not the interface geometry itself.</text>
+
+  <rect x="1120" y="250" width="286" height="312" class="warn"/>
+  <text x="1144" y="286" class="label">4. Pathway risk / failure layer</text>
+  <text x="1144" y="320" class="body">After a state becomes accessible, ask:</text>
+  <text x="1144" y="350" class="small">- does it stay reversible?</text>
+  <text x="1144" y="376" class="small">- does it rapidly open a decomposition path?</text>
+  <text x="1144" y="404" class="body">Current model uses:</text>
+  <text x="1144" y="432" class="mono">onset + barrier + slope + floor</text>
+  <text x="1144" y="462" class="mono">k ~ (kBT/h) exp(-DeltaG‡/kT)</text>
+  <text x="1144" y="500" class="body">Outputs:</text>
+  <text x="1144" y="528" class="mono">pathway failure threshold</text>
+  <text x="1144" y="554" class="mono">fastest channel at target V</text>
+
+  <path d="M386 406 L432 406" class="line"/>
+  <polygon points="430,406 410,396 410,416" fill="#607a74"/>
+  <path d="M728 406 L774 406" class="line"/>
+  <polygon points="772,406 752,396 752,416" fill="#607a74"/>
+  <path d="M1074 406 L1120 406" class="line"/>
+  <polygon points="1118,406 1098,396 1098,416" fill="#607a74"/>
+
+  <text x="54" y="682" class="section">B. Screening-only mode: useful for ranking, but interface orientation is absorbed into effective parameters</text>
+  <rect x="42" y="700" width="1396" height="234" class="card"/>
+
+  <rect x="78" y="742" width="418" height="150" class="gray"/>
+  <text x="102" y="778" class="label">No explicit new interface box built</text>
+  <text x="102" y="810" class="body">What you do have:</text>
+  <text x="102" y="838" class="small">- literature anchors</text>
+  <text x="102" y="864" class="small">- effective free-energy offsets</text>
+  <text x="102" y="890" class="small">- formulation-specific oxidation/pathway presets</text>
+
+  <rect x="540" y="742" width="418" height="150" class="sand"/>
+  <text x="564" y="778" class="label">What is implicitly averaged out</text>
+  <text x="564" y="810" class="small">- exact adsorption geometry</text>
+  <text x="564" y="836" class="small">- orientation fluctuations</text>
+  <text x="564" y="862" class="small">- configuration-to-configuration free-energy spread</text>
+  <text x="564" y="888" class="small">- true double-layer restructuring for each formulation</text>
+
+  <rect x="1002" y="742" width="396" height="150" class="teal"/>
+  <text x="1026" y="778" class="label">What this mode is still good for</text>
+  <text x="1026" y="810" class="small">- quick ranking of candidate formulations</text>
+  <text x="1026" y="836" class="small">- identifying likely low-voltage or high-voltage weak points</text>
+  <text x="1026" y="862" class="small">- deciding which 1-2 formulations deserve explicit interface MD</text>
+
+  <path d="M496 818 L540 818" class="dash"/>
+  <path d="M958 818 L1002 818" class="dash"/>
+</svg>
