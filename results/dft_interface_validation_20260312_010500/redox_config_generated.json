@@ -1,0 +1,13 @@
+{
+  "_comment": [
+    "Generated from PySCF workflow input.",
+    "Raw DFT-derived offsets may still require empirical or cluster/interface calibration."
+  ],
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "temperature_k": 300.0,
+    "workflow_label": "EC/DMC reduction DFT-to-screening example"
+  },
+  "molecules": {}
+}

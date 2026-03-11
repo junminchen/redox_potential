@@ -1,0 +1,52 @@
+{
+  "metadata": {
+    "reference_electrode": "Li/Li+",
+    "vacuum_to_li_offset_ev": 1.4,
+    "temperature_k": 300.0,
+    "workflow_label": "EC/DMC reduction DFT-to-screening example"
+  },
+  "workflow_file": "/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/dft_workflows/example_ec_dmc_reduction.json",
+  "pyscf_available": false,
+  "molecules": {
+    "EC": {
+      "geometry_file": "/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/pdb_bank/EC.pdb",
+      "geometry_format": "pdb",
+      "dft": {
+        "method": "b3lyp",
+        "basis": "6-31+g(d,p)",
+        "solvent": {
+          "model": "ddcosmo",
+          "eps": 40.0
+        }
+      },
+      "reference_state": 0,
+      "residue_names": [
+        "ECA",
+        "EC1",
+        "EC"
+      ],
+      "state_results": [],
+      "note": "PySCF unavailable; validation-only pass completed."
+    },
+    "DMC": {
+      "geometry_file": "/home/am3-peichenzhong-group/Documents/project/project_solv_structure/redox_potential/redox_constantV/pdb_bank/DMC.pdb",
+      "geometry_format": "pdb",
+      "dft": {
+        "method": "b3lyp",
+        "basis": "6-31+g(d,p)",
+        "solvent": {
+          "model": "ddcosmo",
+          "eps": 40.0
+        }
+      },
+      "reference_state": 0,
+      "residue_names": [
+        "DMC",
+        "DMC1",
+        "DME"
+      ],
+      "state_results": [],
+      "note": "PySCF unavailable; validation-only pass completed."
+    }
+  }
+}
