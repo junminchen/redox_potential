@@ -191,7 +191,7 @@ nonbonded_force.updateParametersInContext(context)  # 不需要reinitialize
 
 ### 2.4 任务三：Redox MC模块化（P1）
 
-**文件：** `redox_mc.py`（新文件）
+**文件：** `core/redox_mc.py`（新文件）
 
 #### 2.4.1 RedoxMoleculeState 类
 
@@ -268,7 +268,7 @@ class RedoxMC:
 
 ### 2.5 任务四：电位扫描接口，对齐LSV实验数据（P1）
 
-**新文件：** `voltage_sweep.py`
+**新文件：** `core/voltage_sweep.py`
 
 #### 2.5.1 功能描述
 
@@ -386,8 +386,8 @@ python run_openMM_1context.py npt_mc_3pctbq.pdb md_2V.key > energy_2V_3pctSq_300
 | `run_openMM_1context.py` | 修改：更新import，适配新类接口 | P0 |
 | `subroutines_1context.py` | 修改：更新import，将`ConvergedCharge`委托给`ConstantPotentialForce` | P0 |
 | `constant_potential_force.py` | 新建：`ConstantPotentialForce`类 | P0 |
-| `redox_mc.py` | 新建：`RedoxMC`类，`RedoxParameters` dataclass | P1 |
-| `voltage_sweep.py` | 新建：电位扫描接口 | P1 |
+| `core/redox_mc.py` | 新建：`RedoxMC`类，`RedoxParameters` dataclass | P1 |
+| `core/voltage_sweep.py` | 新建：电位扫描接口 | P1 |
 | `calibrate_redox_potential.py` | 新建：实验对齐工具 | P1 |
 | `md_2V.key` | 修改：新增参数字段（向后兼容） | P0 |
 | `2V.pbs` | 修改：更新为SLURM+现代CUDA | P1 |
@@ -478,4 +478,3 @@ $$E^\circ_{\text{red}} = \frac{1}{e}\left[EA_{\text{gas}} + \Delta G_{\text{solv
 - Siepmann, J.I. & Sprik, M. "Influence of surface topology and electrostatic potential on water/electrode systems" *J. Chem. Phys.* 102, 511 (1995)  
 - Wang, Z. et al. "Modelling electrochemical systems with finite field molecular dynamics" *Faraday Discuss.* 210, 1 (2018)
 - OpenMM 8.4 Migration Guide: https://openmm.org/documentation/latest/migration/
-

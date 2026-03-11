@@ -68,7 +68,7 @@ So the interface keeps an explicit `effective_shift_kjmol` hook. That lets you:
 Validation-only pass:
 
 ```bash
-python generate_redox_config_from_dft.py \
+python scripts/dft/generate_redox_config_from_dft.py \
   --workflow configs/dft_workflows/example_ec_dmc_reduction.json \
   --output-dir results/dft_interface_validation \
   --allow-missing-pyscf
@@ -77,7 +77,7 @@ python generate_redox_config_from_dft.py \
 Real DFT pass after installing PySCF:
 
 ```bash
-python generate_redox_config_from_dft.py \
+python scripts/dft/generate_redox_config_from_dft.py \
   --workflow configs/dft_workflows/example_ec_dmc_reduction.json \
   --output-dir results/dft_interface_ec_dmc
 ```
@@ -85,7 +85,7 @@ python generate_redox_config_from_dft.py \
 GPU4PySCF pass:
 
 ```bash
-python generate_redox_config_from_dft.py \
+python scripts/dft/generate_redox_config_from_dft.py \
   --workflow configs/dft_workflows/example_ec_dmc_reduction_gpu.json \
   --output-dir results/dft_interface_ec_dmc_gpu
 ```

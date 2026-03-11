@@ -32,11 +32,11 @@ Config JSON → OPLSMDSimulation (恒电位MD)
 
 | 文件 | 功能 | 创建时间 |
 |------|------|--------|
-| `redox_mc.py` | RedoxMC 类，RedoxParameters dataclass | Task 3 |
-| `voltage_sweep.py` | 电位扫描主模块，CV分析器 | Task 4 |
+| `core/redox_mc.py` | RedoxMC 类，RedoxParameters dataclass | Task 3 |
+| `core/voltage_sweep.py` | 电位扫描主模块，CV分析器 | Task 4 |
 | `configs/redox/config_redox.json` | 分子氧化还原参数配置 | Task 5 |
-| `run_voltage_sweep.py` | 批量扫描驱动脚本 | 辅助 |
-| `REDOX_WORKFLOW.md` | 本文档 | 文档 |
+| `scripts/cli/run_voltage_sweep.py` | 批量扫描驱动脚本 | 辅助 |
+| `docs/methods/REDOX_WORKFLOW.md` | 本文档 | 文档 |
 
 ## 快速开始
 
@@ -99,14 +99,14 @@ python scripts/cli/run_voltage_sweep.py \
     --config configs/md/config_opls.json \
     --redox-config configs/redox/config_redox.json \
     --pdb structures/systems/start_with_electrodes.pdb \
-    --output-dir sweep_results
+    --output-dir results/voltage_sweep_example
 
 # 带实验数据对比
 python scripts/cli/run_voltage_sweep.py \
     --config configs/md/config_opls.json \
     --redox-config configs/redox/config_redox.json \
     --pdb structures/systems/start_with_electrodes.pdb \
-    --output-dir sweep_results \
+    --output-dir results/voltage_sweep_example \
     --lsv-peak-v -1.7  # 实验 LSV 峰值 (V vs Li/Li+)
 
 # 自定义电位范围和步数
@@ -114,7 +114,7 @@ python scripts/cli/run_voltage_sweep.py \
     --config configs/md/config_opls.json \
     --redox-config configs/redox/config_redox.json \
     --pdb structures/systems/start_with_electrodes.pdb \
-    --output-dir sweep_results \
+    --output-dir results/voltage_sweep_example \
     --v-start -4.5 \
     --v-end -2.5 \
     --v-step 0.1 \
@@ -125,10 +125,10 @@ python scripts/cli/run_voltage_sweep.py \
 
 ### 4. 输出结果分析
 
-扫描完成后在 `sweep_results/` 目录下生成：
+扫描完成后在 `results/voltage_sweep_example/` 目录下生成：
 
 ```
-sweep_results/
+results/voltage_sweep_example/
 ├── voltage_sweep_results.csv     # 完整数据表
 ├── voltage_sweep_checkpoint.csv  # 检查点文件
 ├── Vm4.500/
@@ -163,7 +163,7 @@ import matplotlib.pyplot as plt
 import sys; sys.path.insert(0, "core"); from voltage_sweep import RedoxPotentialAnalyzer
 
 # 加载结果
-df = pd.read_csv('sweep_results/voltage_sweep_results.csv')
+df = pd.read_csv('results/voltage_sweep_example/voltage_sweep_results.csv')
 
 # 绘制电极电荷 vs 电位
 fig, (ax1, ax2) = plt.subplots(1, 2, figsize=(12, 4))
@@ -185,7 +185,7 @@ ax2.legend()
 ax2.grid(True)
 
 plt.tight_layout()
-plt.savefig('sweep_results/cv_curve.png', dpi=300)
+plt.savefig('results/voltage_sweep_example/cv_curve.png', dpi=300)
 plt.show()
 
 # 提取半波电位

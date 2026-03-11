@@ -5,6 +5,8 @@
 **OpenMM 版本:** 8.4
 **计算平台:** CUDA (OpenCL fallback)
 
+> 注：本文是历史完成报告，文中的文件路径已同步到当前目录结构。
+
 ---
 
 ## 执行摘要
@@ -15,12 +17,12 @@
 
 | 模块 | 文件 | 行数 | 功能 |
 |------|------|-----|------|
-| **Task 3** | `redox_mc.py` | 390 | RedoxParameters + RedoxMC + MC采样 |
-| **Task 4** | `voltage_sweep.py` | 410 | 电位扫描模拟 + CV分析 |
-| **Task 5** | `config_redox.json` | 160 | 分子参数配置（EC、DMC、BQ示例） |
-| **驱动程序** | `run_voltage_sweep.py` | 180 | 批量扫描执行脚本 |
-| **工作流文档** | `REDOX_WORKFLOW.md` | 350 | 详细使用指南 + 物理模型说明 |
-| **单元测试** | `test_redox_framework.py` | 280 | 5项单元测试（100%通过） |
+| **Task 3** | `core/redox_mc.py` | 390 | RedoxParameters + RedoxMC + MC采样 |
+| **Task 4** | `core/voltage_sweep.py` | 410 | 电位扫描模拟 + CV分析 |
+| **Task 5** | `configs/redox/config_redox.json` | 160 | 分子参数配置（EC、DMC、BQ示例） |
+| **驱动程序** | `scripts/cli/run_voltage_sweep.py` | 180 | 批量扫描执行脚本 |
+| **工作流文档** | `docs/methods/REDOX_WORKFLOW.md` | 350 | 详细使用指南 + 物理模型说明 |
+| **单元测试** | `tests/test_redox_framework.py` | 280 | 5项单元测试（100%通过） |
 
 **总计:** ~1850 行生产级代码 + 文档
 
@@ -182,7 +184,7 @@ voltage_v, q_cathode_mean, q_anode_mean, q_cathode_std, ...
 
 ### 新增配置参数
 
-创建了 `config_redox.json`，包含：
+创建了 `configs/redox/config_redox.json`，包含：
 
 ```json
 {
@@ -226,7 +228,7 @@ voltage_v, q_cathode_mean, q_anode_mean, q_cathode_std, ...
 
 ```python
 # 在 VoltageSweepSimulation 中
-sim = OPLSMDSimulation(config_opls.json)
+sim = OPLSMDSimulation("configs/md/config_opls.json")
 sim.run_equilibration()
 sim.run_production()
 # → 生成 DCD 轨迹、电荷日志
@@ -281,7 +283,7 @@ Then:   P_accept = exp(+0.4) = 1.49 → min(1, 1.49) = 1.0 (接受)
 ✅ **PASSED**: VoltageSweepSimulation 可加载配置、运行扫描
 
 ```
-Given:  config_redox.json，包含 EC、DMC、BQ_EXAMPLE
+Given:  configs/redox/config_redox.json，包含 EC、DMC、BQ_EXAMPLE
 When:   voltage_sweep.run_sweep(v_start=-4.5, v_end=-2.5, v_step=0.1)
 Then:   生成 21 个电位点的 DataFrame（已验证）
         - voltage_v ∈ [-4.5, -2.5]
@@ -291,7 +293,7 @@ Then:   生成 21 个电位点的 DataFrame（已验证）
 
 ### AC-5（Task 5：参数配置）
 
-✅ **PASSED**: config_redox.json 包含合理的参数
+✅ **PASSED**: configs/redox/config_redox.json 包含合理的参数
 
 ```
 Given:  SCRF PCM 计算的 EC 氧化：ΔG_solv ≈ -5 kJ/mol
@@ -330,20 +332,20 @@ export OMP_NUM_THREADS=4
 source activate omm84_cuda_pip
 
 # 2. 编辑参数（可选）
-# vim config_redox.json
+# vim configs/redox/config_redox.json
 
 # 3. 运行电位扫描
-python run_voltage_sweep.py \
-    --config config_opls.json \
-    --redox-config config_redox.json \
-    --pdb start_with_electrodes.pdb \
-    --output-dir my_sweep_results \
+python scripts/cli/run_voltage_sweep.py \
+    --config configs/md/config_opls.json \
+    --redox-config configs/redox/config_redox.json \
+    --pdb structures/systems/start_with_electrodes.pdb \
+    --output-dir results/my_sweep_results \
     --platform CUDA
 
 # 4. 分析结果
 python -c "
 import pandas as pd
-df = pd.read_csv('my_sweep_results/voltage_sweep_results.csv')
+df = pd.read_csv('results/my_sweep_results/voltage_sweep_results.csv')
 print(df[['voltage_v', 'q_cathode_mean']].to_string(index=False))
 "
 ```
@@ -351,10 +353,10 @@ print(df[['voltage_v', 'q_cathode_mean']].to_string(index=False))
 ### 与实验对齐
 
 ```python
-from voltage_sweep import RedoxPotentialAnalyzer
+import sys; sys.path.insert(0, "core"); from voltage_sweep import RedoxPotentialAnalyzer
 import pandas as pd
 
-df = pd.read_csv('sweep_results/voltage_sweep_results.csv')
+df = pd.read_csv('results/voltage_sweep_example/voltage_sweep_results.csv')
 
 # 提取模拟半波电位
 e_half_sim = RedoxPotentialAnalyzer.find_half_wave_potential(df, 'BQ')
@@ -378,7 +380,7 @@ print(f"差异: {comparison['difference_mv']:.1f} mV")
 ### 单元测试结果
 
 ```
-$ python test_redox_framework.py
+$ python tests/test_redox_framework.py
 
 ======================================================================
 SUMMARY: 5/5 tests passed
@@ -398,18 +400,18 @@ SUMMARY: 5/5 tests passed
 
 ```
 redox_constantV/
-├── redox_mc.py                    (Task 3，390行)
-├── voltage_sweep.py               (Task 4，410行)
-├── config_redox.json              (Task 5，160行)
-├── run_voltage_sweep.py           (驱动程序，180行)
-├── test_redox_framework.py        (单元测试，280行)
-├── REDOX_WORKFLOW.md              (工作流文档，350行)
-├── TASK_3_4_5_COMPLETION.md       (本文档)
-├── config_opls.json               (已有)
-├── start_with_electrodes.pdb      (已有)
-├── subroutines_opls.py            (已有，Task 3a)
-├── run_opls.py                    (已有，Task 3a)
-└── ffdir/                         (已有，OPLS 力场文件)
+├── core/redox_mc.py                         (Task 3，390行)
+├── core/voltage_sweep.py                   (Task 4，410行)
+├── configs/redox/config_redox.json         (Task 5，160行)
+├── scripts/cli/run_voltage_sweep.py        (驱动程序，180行)
+├── tests/test_redox_framework.py           (单元测试，280行)
+├── docs/methods/REDOX_WORKFLOW.md          (工作流文档，350行)
+├── docs/reports/TASK_3_4_5_COMPLETION.md   (本文档)
+├── configs/md/config_opls.json             (已有)
+├── structures/systems/start_with_electrodes.pdb (已有)
+├── core/subroutines_opls.py                (已有，Task 3a)
+├── scripts/cli/run_opls.py                 (已有，Task 3a)
+└── ff/                                     (已有，OPLS 力场文件)
 ```
 
 ---
@@ -419,12 +421,12 @@ redox_constantV/
 ### 立即可做
 
 1. **配置真实分子**
-   - 将 `config_redox.json` 中的 EC/DMC 替换为实际的 redox-active species
+   - 将 `configs/redox/config_redox.json` 中的 EC/DMC 替换为实际的 redox-active species
    - 从文献或 DFT 计算获得电子亲合能和溶剂化能
 
 2. **运行完整电位扫描**
    ```bash
-   python run_voltage_sweep.py --v-start -5.0 --v-end -1.0 --v-step 0.05
+   python scripts/cli/run_voltage_sweep.py --v-start -5.0 --v-end -1.0 --v-step 0.05
    ```
 
 3. **与实验 CV/LSV 对齐**
@@ -492,7 +494,7 @@ redox_constantV/
 
 引用本工作时，请提及：
 - PRD.md 的设计目标
-- 本完成报告（TASK_3_4_5_COMPLETION.md）
+- 本完成报告（docs/reports/TASK_3_4_5_COMPLETION.md）
 - 相关论文（见文献部分）
 
 ---

@@ -2,7 +2,7 @@
   "_comment": [
     "Template redox configuration for real redox-active molecules.",
     "Use this file after adding matching residues to the simulation PDB/topology.",
-    "The current start_with_electrodes.pdb contains ECA/DMC/LiA/PF6 only, so these",
+    "The current structures/systems/start_with_electrodes.pdb file contains ECA/DMC/LiA/PF6 only, so these",
     "species will not be sampled until the structure actually includes them.",
     "",
     "These values are literature-inspired starting estimates for workflow calibration.",

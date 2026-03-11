@@ -145,7 +145,7 @@ python scripts/dft/generate_redox_config_from_dft.py \
 
 ### 6.1 `configs/md/`
 
-- `config_opls.json`
+- `configs/md/config_opls.json`
 - 用于 OpenMM/OPLS 常电位 MD
 - 指定：
   - 体系 PDB
