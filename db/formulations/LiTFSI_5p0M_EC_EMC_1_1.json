@@ -1,0 +1,89 @@
+{
+  "formulation_name": "LiTFSI_5.0M_EC_EMC_1:1",
+  "composition": "LiTFSI 5.0M in EC:EMC (1:1)",
+  "salt_name": "LiTFSI",
+  "salt_conc_M": 5.0,
+  "solvents": [
+    "EC",
+    "EMC"
+  ],
+  "solvent_ratio": [
+    1,
+    1
+  ],
+  "additive_name": null,
+  "additive_wt_pct": 0.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiTFSI in EC:EMC (1:1)",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "EC": {
+        "residue_names": [
+          "EC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.5999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 77.18824000000001
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "EMC": {
+        "residue_names": [
+          "EMC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.7
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 67.53970999999999
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiTFSI": {
+        "residue_names": [
+          "LiTFSI"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.8999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 48.24265
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}

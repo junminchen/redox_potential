@@ -1,0 +1,8250 @@
+[
+  {
+    "formulation_name": "LiFSI_1.0M_EC",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EMC",
+    "composition": "LiFSI 6.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DME",
+    "composition": "LiFSI 6.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DEC",
+    "composition": "LiFSI 6.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_PC",
+    "composition": "LiFSI 6.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC",
+    "composition": "LiPF6 0.5M in EC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DMC",
+    "composition": "LiPF6 0.5M in DMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EMC",
+    "composition": "LiPF6 0.5M in EMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DME",
+    "composition": "LiPF6 0.5M in DME",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DEC",
+    "composition": "LiPF6 0.5M in DEC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_PC",
+    "composition": "LiPF6 0.5M in PC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC",
+    "composition": "LiPF6 1.0M in EC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DMC",
+    "composition": "LiPF6 1.0M in DMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EMC",
+    "composition": "LiPF6 1.0M in EMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DME",
+    "composition": "LiPF6 1.0M in DME",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DEC",
+    "composition": "LiPF6 1.0M in DEC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_PC",
+    "composition": "LiPF6 1.0M in PC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC",
+    "composition": "LiPF6 1.5M in EC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DMC",
+    "composition": "LiPF6 1.5M in DMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EMC",
+    "composition": "LiPF6 1.5M in EMC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DME",
+    "composition": "LiPF6 1.5M in DME",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DEC",
+    "composition": "LiPF6 1.5M in DEC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_PC",
+    "composition": "LiPF6 1.5M in PC",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC",
+    "composition": "LiTFSI 1.0M in EC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DMC",
+    "composition": "LiTFSI 1.0M in DMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EMC",
+    "composition": "LiTFSI 1.0M in EMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DME",
+    "composition": "LiTFSI 1.0M in DME",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DEC",
+    "composition": "LiTFSI 1.0M in DEC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_PC",
+    "composition": "LiTFSI 1.0M in PC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC",
+    "composition": "LiTFSI 3.0M in EC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DMC",
+    "composition": "LiTFSI 3.0M in DMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EMC",
+    "composition": "LiTFSI 3.0M in EMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DME",
+    "composition": "LiTFSI 3.0M in DME",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DEC",
+    "composition": "LiTFSI 3.0M in DEC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_PC",
+    "composition": "LiTFSI 3.0M in PC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC",
+    "composition": "LiTFSI 5.0M in EC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DMC",
+    "composition": "LiTFSI 5.0M in DMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EMC",
+    "composition": "LiTFSI 5.0M in EMC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DME",
+    "composition": "LiTFSI 5.0M in DME",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DEC",
+    "composition": "LiTFSI 5.0M in DEC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_PC",
+    "composition": "LiTFSI 5.0M in PC",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC",
+    "composition": "LiBOB 0.1M in EC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DMC",
+    "composition": "LiBOB 0.1M in DMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EMC",
+    "composition": "LiBOB 0.1M in EMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DME",
+    "composition": "LiBOB 0.1M in DME",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DEC",
+    "composition": "LiBOB 0.1M in DEC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_PC",
+    "composition": "LiBOB 0.1M in PC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC",
+    "composition": "LiBOB 0.5M in EC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DMC",
+    "composition": "LiBOB 0.5M in DMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EMC",
+    "composition": "LiBOB 0.5M in EMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DME",
+    "composition": "LiBOB 0.5M in DME",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DEC",
+    "composition": "LiBOB 0.5M in DEC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_PC",
+    "composition": "LiBOB 0.5M in PC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC",
+    "composition": "LiBOB 1.0M in EC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DMC",
+    "composition": "LiBOB 1.0M in DMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EMC",
+    "composition": "LiBOB 1.0M in EMC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DME",
+    "composition": "LiBOB 1.0M in DME",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DEC",
+    "composition": "LiBOB 1.0M in DEC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_PC",
+    "composition": "LiBOB 1.0M in PC",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC",
+    "composition": "LiDFP 0.1M in EC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DMC",
+    "composition": "LiDFP 0.1M in DMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EMC",
+    "composition": "LiDFP 0.1M in EMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DME",
+    "composition": "LiDFP 0.1M in DME",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DEC",
+    "composition": "LiDFP 0.1M in DEC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_PC",
+    "composition": "LiDFP 0.1M in PC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC",
+    "composition": "LiDFP 0.5M in EC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DMC",
+    "composition": "LiDFP 0.5M in DMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EMC",
+    "composition": "LiDFP 0.5M in EMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DME",
+    "composition": "LiDFP 0.5M in DME",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DEC",
+    "composition": "LiDFP 0.5M in DEC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_PC",
+    "composition": "LiDFP 0.5M in PC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC",
+    "composition": "LiDFP 1.0M in EC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DMC",
+    "composition": "LiDFP 1.0M in DMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EMC",
+    "composition": "LiDFP 1.0M in EMC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DME",
+    "composition": "LiDFP 1.0M in DME",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DEC",
+    "composition": "LiDFP 1.0M in DEC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_PC",
+    "composition": "LiDFP 1.0M in PC",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DMC_1:1",
+    "composition": "LiFSI 1.0M in EC:DMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DMC_3:7",
+    "composition": "LiFSI 1.0M in EC:DMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DMC_1:1",
+    "composition": "LiFSI 2.0M in EC:DMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DMC_3:7",
+    "composition": "LiFSI 2.0M in EC:DMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DMC_1:1",
+    "composition": "LiFSI 4.0M in EC:DMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DMC_3:7",
+    "composition": "LiFSI 4.0M in EC:DMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DMC_1:1",
+    "composition": "LiFSI 6.0M in EC:DMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DMC_3:7",
+    "composition": "LiFSI 6.0M in EC:DMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DMC_1:1",
+    "composition": "LiPF6 0.5M in EC:DMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DMC_3:7",
+    "composition": "LiPF6 0.5M in EC:DMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DMC_1:1",
+    "composition": "LiPF6 1.0M in EC:DMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DMC_3:7",
+    "composition": "LiPF6 1.0M in EC:DMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DMC_1:1",
+    "composition": "LiPF6 1.5M in EC:DMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DMC_3:7",
+    "composition": "LiPF6 1.5M in EC:DMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DMC_1:1",
+    "composition": "LiTFSI 1.0M in EC:DMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DMC_3:7",
+    "composition": "LiTFSI 1.0M in EC:DMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DMC_1:1",
+    "composition": "LiTFSI 3.0M in EC:DMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DMC_3:7",
+    "composition": "LiTFSI 3.0M in EC:DMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DMC_1:1",
+    "composition": "LiTFSI 5.0M in EC:DMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DMC_3:7",
+    "composition": "LiTFSI 5.0M in EC:DMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DMC_1:1",
+    "composition": "LiBOB 0.1M in EC:DMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DMC_3:7",
+    "composition": "LiBOB 0.1M in EC:DMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DMC_1:1",
+    "composition": "LiBOB 0.5M in EC:DMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DMC_3:7",
+    "composition": "LiBOB 0.5M in EC:DMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DMC_1:1",
+    "composition": "LiBOB 1.0M in EC:DMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DMC_3:7",
+    "composition": "LiBOB 1.0M in EC:DMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DMC_1:1",
+    "composition": "LiDFP 0.1M in EC:DMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DMC_3:7",
+    "composition": "LiDFP 0.1M in EC:DMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DMC_1:1",
+    "composition": "LiDFP 0.5M in EC:DMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DMC_3:7",
+    "composition": "LiDFP 0.5M in EC:DMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DMC_1:1",
+    "composition": "LiDFP 1.0M in EC:DMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DMC_3:7",
+    "composition": "LiDFP 1.0M in EC:DMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_EMC_1:1",
+    "composition": "LiFSI 1.0M in EC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_EMC_3:7",
+    "composition": "LiFSI 1.0M in EC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_EMC_1:1",
+    "composition": "LiFSI 2.0M in EC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_EMC_3:7",
+    "composition": "LiFSI 2.0M in EC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_EMC_1:1",
+    "composition": "LiFSI 4.0M in EC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_EMC_3:7",
+    "composition": "LiFSI 4.0M in EC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_EMC_1:1",
+    "composition": "LiFSI 6.0M in EC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_EMC_3:7",
+    "composition": "LiFSI 6.0M in EC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_EMC_1:1",
+    "composition": "LiPF6 0.5M in EC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_EMC_3:7",
+    "composition": "LiPF6 0.5M in EC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_EMC_1:1",
+    "composition": "LiPF6 1.0M in EC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_EMC_3:7",
+    "composition": "LiPF6 1.0M in EC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_EMC_1:1",
+    "composition": "LiPF6 1.5M in EC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_EMC_3:7",
+    "composition": "LiPF6 1.5M in EC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_EMC_1:1",
+    "composition": "LiTFSI 1.0M in EC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_EMC_3:7",
+    "composition": "LiTFSI 1.0M in EC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_EMC_1:1",
+    "composition": "LiTFSI 3.0M in EC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_EMC_3:7",
+    "composition": "LiTFSI 3.0M in EC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_EMC_1:1",
+    "composition": "LiTFSI 5.0M in EC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_EMC_3:7",
+    "composition": "LiTFSI 5.0M in EC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_EMC_1:1",
+    "composition": "LiBOB 0.1M in EC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_EMC_3:7",
+    "composition": "LiBOB 0.1M in EC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_EMC_1:1",
+    "composition": "LiBOB 0.5M in EC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_EMC_3:7",
+    "composition": "LiBOB 0.5M in EC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_EMC_1:1",
+    "composition": "LiBOB 1.0M in EC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_EMC_3:7",
+    "composition": "LiBOB 1.0M in EC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_EMC_1:1",
+    "composition": "LiDFP 0.1M in EC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_EMC_3:7",
+    "composition": "LiDFP 0.1M in EC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_EMC_1:1",
+    "composition": "LiDFP 0.5M in EC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_EMC_3:7",
+    "composition": "LiDFP 0.5M in EC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_EMC_1:1",
+    "composition": "LiDFP 1.0M in EC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_EMC_3:7",
+    "composition": "LiDFP 1.0M in EC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DEC_1:1",
+    "composition": "LiFSI 1.0M in EC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DEC_3:7",
+    "composition": "LiFSI 1.0M in EC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DEC_1:1",
+    "composition": "LiFSI 2.0M in EC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DEC_3:7",
+    "composition": "LiFSI 2.0M in EC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DEC_1:1",
+    "composition": "LiFSI 4.0M in EC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DEC_3:7",
+    "composition": "LiFSI 4.0M in EC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DEC_1:1",
+    "composition": "LiFSI 6.0M in EC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DEC_3:7",
+    "composition": "LiFSI 6.0M in EC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DEC_1:1",
+    "composition": "LiPF6 0.5M in EC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DEC_3:7",
+    "composition": "LiPF6 0.5M in EC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DEC_1:1",
+    "composition": "LiPF6 1.0M in EC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DEC_3:7",
+    "composition": "LiPF6 1.0M in EC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DEC_1:1",
+    "composition": "LiPF6 1.5M in EC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DEC_3:7",
+    "composition": "LiPF6 1.5M in EC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DEC_1:1",
+    "composition": "LiTFSI 1.0M in EC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DEC_3:7",
+    "composition": "LiTFSI 1.0M in EC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DEC_1:1",
+    "composition": "LiTFSI 3.0M in EC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DEC_3:7",
+    "composition": "LiTFSI 3.0M in EC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DEC_1:1",
+    "composition": "LiTFSI 5.0M in EC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DEC_3:7",
+    "composition": "LiTFSI 5.0M in EC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DEC_1:1",
+    "composition": "LiBOB 0.1M in EC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DEC_3:7",
+    "composition": "LiBOB 0.1M in EC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DEC_1:1",
+    "composition": "LiBOB 0.5M in EC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DEC_3:7",
+    "composition": "LiBOB 0.5M in EC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DEC_1:1",
+    "composition": "LiBOB 1.0M in EC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DEC_3:7",
+    "composition": "LiBOB 1.0M in EC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DEC_1:1",
+    "composition": "LiDFP 0.1M in EC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DEC_3:7",
+    "composition": "LiDFP 0.1M in EC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DEC_1:1",
+    "composition": "LiDFP 0.5M in EC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DEC_3:7",
+    "composition": "LiDFP 0.5M in EC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DEC_1:1",
+    "composition": "LiDFP 1.0M in EC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DEC_3:7",
+    "composition": "LiDFP 1.0M in EC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_PC_1:1",
+    "composition": "LiFSI 1.0M in EC:PC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_PC_3:7",
+    "composition": "LiFSI 1.0M in EC:PC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_PC_1:1",
+    "composition": "LiFSI 2.0M in EC:PC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_PC_3:7",
+    "composition": "LiFSI 2.0M in EC:PC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_PC_1:1",
+    "composition": "LiFSI 4.0M in EC:PC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_PC_3:7",
+    "composition": "LiFSI 4.0M in EC:PC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_PC_1:1",
+    "composition": "LiFSI 6.0M in EC:PC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_PC_3:7",
+    "composition": "LiFSI 6.0M in EC:PC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_PC_1:1",
+    "composition": "LiPF6 0.5M in EC:PC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_PC_3:7",
+    "composition": "LiPF6 0.5M in EC:PC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_PC_1:1",
+    "composition": "LiPF6 1.0M in EC:PC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_PC_3:7",
+    "composition": "LiPF6 1.0M in EC:PC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_PC_1:1",
+    "composition": "LiPF6 1.5M in EC:PC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_PC_3:7",
+    "composition": "LiPF6 1.5M in EC:PC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_PC_1:1",
+    "composition": "LiTFSI 1.0M in EC:PC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_PC_3:7",
+    "composition": "LiTFSI 1.0M in EC:PC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_PC_1:1",
+    "composition": "LiTFSI 3.0M in EC:PC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_PC_3:7",
+    "composition": "LiTFSI 3.0M in EC:PC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_PC_1:1",
+    "composition": "LiTFSI 5.0M in EC:PC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_PC_3:7",
+    "composition": "LiTFSI 5.0M in EC:PC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_PC_1:1",
+    "composition": "LiBOB 0.1M in EC:PC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_PC_3:7",
+    "composition": "LiBOB 0.1M in EC:PC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_PC_1:1",
+    "composition": "LiBOB 0.5M in EC:PC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_PC_3:7",
+    "composition": "LiBOB 0.5M in EC:PC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_PC_1:1",
+    "composition": "LiBOB 1.0M in EC:PC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_PC_3:7",
+    "composition": "LiBOB 1.0M in EC:PC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_PC_1:1",
+    "composition": "LiDFP 0.1M in EC:PC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_PC_3:7",
+    "composition": "LiDFP 0.1M in EC:PC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_PC_1:1",
+    "composition": "LiDFP 0.5M in EC:PC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_PC_3:7",
+    "composition": "LiDFP 0.5M in EC:PC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_PC_1:1",
+    "composition": "LiDFP 1.0M in EC:PC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_PC_3:7",
+    "composition": "LiDFP 1.0M in EC:PC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "PC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DME_1:1",
+    "composition": "LiFSI 1.0M in EC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DME_3:7",
+    "composition": "LiFSI 1.0M in EC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DME_1:1",
+    "composition": "LiFSI 2.0M in EC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DME_3:7",
+    "composition": "LiFSI 2.0M in EC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DME_1:1",
+    "composition": "LiFSI 4.0M in EC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DME_3:7",
+    "composition": "LiFSI 4.0M in EC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DME_1:1",
+    "composition": "LiFSI 6.0M in EC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DME_3:7",
+    "composition": "LiFSI 6.0M in EC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DME_1:1",
+    "composition": "LiPF6 0.5M in EC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DME_3:7",
+    "composition": "LiPF6 0.5M in EC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DME_1:1",
+    "composition": "LiPF6 1.0M in EC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DME_3:7",
+    "composition": "LiPF6 1.0M in EC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DME_1:1",
+    "composition": "LiPF6 1.5M in EC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DME_3:7",
+    "composition": "LiPF6 1.5M in EC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DME_1:1",
+    "composition": "LiTFSI 1.0M in EC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DME_3:7",
+    "composition": "LiTFSI 1.0M in EC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DME_1:1",
+    "composition": "LiTFSI 3.0M in EC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DME_3:7",
+    "composition": "LiTFSI 3.0M in EC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DME_1:1",
+    "composition": "LiTFSI 5.0M in EC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DME_3:7",
+    "composition": "LiTFSI 5.0M in EC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DME_1:1",
+    "composition": "LiBOB 0.1M in EC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DME_3:7",
+    "composition": "LiBOB 0.1M in EC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DME_1:1",
+    "composition": "LiBOB 0.5M in EC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DME_3:7",
+    "composition": "LiBOB 0.5M in EC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DME_1:1",
+    "composition": "LiBOB 1.0M in EC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DME_3:7",
+    "composition": "LiBOB 1.0M in EC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DME_1:1",
+    "composition": "LiDFP 0.1M in EC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DME_3:7",
+    "composition": "LiDFP 0.1M in EC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DME_1:1",
+    "composition": "LiDFP 0.5M in EC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DME_3:7",
+    "composition": "LiDFP 0.5M in EC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DME_1:1",
+    "composition": "LiDFP 1.0M in EC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DME_3:7",
+    "composition": "LiDFP 1.0M in EC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_EMC_1:1",
+    "composition": "LiFSI 1.0M in DMC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_EMC_3:7",
+    "composition": "LiFSI 1.0M in DMC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_EMC_1:1",
+    "composition": "LiFSI 2.0M in DMC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_EMC_3:7",
+    "composition": "LiFSI 2.0M in DMC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_EMC_1:1",
+    "composition": "LiFSI 4.0M in DMC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_EMC_3:7",
+    "composition": "LiFSI 4.0M in DMC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_EMC_1:1",
+    "composition": "LiFSI 6.0M in DMC:EMC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_EMC_3:7",
+    "composition": "LiFSI 6.0M in DMC:EMC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DMC_EMC_1:1",
+    "composition": "LiPF6 0.5M in DMC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DMC_EMC_3:7",
+    "composition": "LiPF6 0.5M in DMC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DMC_EMC_1:1",
+    "composition": "LiPF6 1.0M in DMC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DMC_EMC_3:7",
+    "composition": "LiPF6 1.0M in DMC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DMC_EMC_1:1",
+    "composition": "LiPF6 1.5M in DMC:EMC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DMC_EMC_3:7",
+    "composition": "LiPF6 1.5M in DMC:EMC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DMC_EMC_1:1",
+    "composition": "LiTFSI 1.0M in DMC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DMC_EMC_3:7",
+    "composition": "LiTFSI 1.0M in DMC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DMC_EMC_1:1",
+    "composition": "LiTFSI 3.0M in DMC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DMC_EMC_3:7",
+    "composition": "LiTFSI 3.0M in DMC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DMC_EMC_1:1",
+    "composition": "LiTFSI 5.0M in DMC:EMC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DMC_EMC_3:7",
+    "composition": "LiTFSI 5.0M in DMC:EMC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DMC_EMC_1:1",
+    "composition": "LiBOB 0.1M in DMC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DMC_EMC_3:7",
+    "composition": "LiBOB 0.1M in DMC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DMC_EMC_1:1",
+    "composition": "LiBOB 0.5M in DMC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DMC_EMC_3:7",
+    "composition": "LiBOB 0.5M in DMC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DMC_EMC_1:1",
+    "composition": "LiBOB 1.0M in DMC:EMC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DMC_EMC_3:7",
+    "composition": "LiBOB 1.0M in DMC:EMC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DMC_EMC_1:1",
+    "composition": "LiDFP 0.1M in DMC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DMC_EMC_3:7",
+    "composition": "LiDFP 0.1M in DMC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DMC_EMC_1:1",
+    "composition": "LiDFP 0.5M in DMC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DMC_EMC_3:7",
+    "composition": "LiDFP 0.5M in DMC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DMC_EMC_1:1",
+    "composition": "LiDFP 1.0M in DMC:EMC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DMC_EMC_3:7",
+    "composition": "LiDFP 1.0M in DMC:EMC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_DME_1:1",
+    "composition": "LiFSI 1.0M in DMC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_DME_3:7",
+    "composition": "LiFSI 1.0M in DMC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_DME_1:1",
+    "composition": "LiFSI 2.0M in DMC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_DME_3:7",
+    "composition": "LiFSI 2.0M in DMC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_DME_1:1",
+    "composition": "LiFSI 4.0M in DMC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_DME_3:7",
+    "composition": "LiFSI 4.0M in DMC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_DME_1:1",
+    "composition": "LiFSI 6.0M in DMC:DME (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_DME_3:7",
+    "composition": "LiFSI 6.0M in DMC:DME (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DMC_DME_1:1",
+    "composition": "LiPF6 0.5M in DMC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_DMC_DME_3:7",
+    "composition": "LiPF6 0.5M in DMC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DMC_DME_1:1",
+    "composition": "LiPF6 1.0M in DMC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_DMC_DME_3:7",
+    "composition": "LiPF6 1.0M in DMC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DMC_DME_1:1",
+    "composition": "LiPF6 1.5M in DMC:DME (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_DMC_DME_3:7",
+    "composition": "LiPF6 1.5M in DMC:DME (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DMC_DME_1:1",
+    "composition": "LiTFSI 1.0M in DMC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_DMC_DME_3:7",
+    "composition": "LiTFSI 1.0M in DMC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DMC_DME_1:1",
+    "composition": "LiTFSI 3.0M in DMC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_DMC_DME_3:7",
+    "composition": "LiTFSI 3.0M in DMC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DMC_DME_1:1",
+    "composition": "LiTFSI 5.0M in DMC:DME (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_DMC_DME_3:7",
+    "composition": "LiTFSI 5.0M in DMC:DME (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DMC_DME_1:1",
+    "composition": "LiBOB 0.1M in DMC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_DMC_DME_3:7",
+    "composition": "LiBOB 0.1M in DMC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DMC_DME_1:1",
+    "composition": "LiBOB 0.5M in DMC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_DMC_DME_3:7",
+    "composition": "LiBOB 0.5M in DMC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DMC_DME_1:1",
+    "composition": "LiBOB 1.0M in DMC:DME (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_DMC_DME_3:7",
+    "composition": "LiBOB 1.0M in DMC:DME (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DMC_DME_1:1",
+    "composition": "LiDFP 0.1M in DMC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_DMC_DME_3:7",
+    "composition": "LiDFP 0.1M in DMC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DMC_DME_1:1",
+    "composition": "LiDFP 0.5M in DMC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_DMC_DME_3:7",
+    "composition": "LiDFP 0.5M in DMC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DMC_DME_1:1",
+    "composition": "LiDFP 1.0M in DMC:DME (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_DMC_DME_3:7",
+    "composition": "LiDFP 1.0M in DMC:DME (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC",
+      "DME"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_DEC_1:1",
+    "composition": "LiFSI 1.0M in EMC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_DEC_3:7",
+    "composition": "LiFSI 1.0M in EMC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_DEC_1:1",
+    "composition": "LiFSI 2.0M in EMC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_DEC_3:7",
+    "composition": "LiFSI 2.0M in EMC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_DEC_1:1",
+    "composition": "LiFSI 4.0M in EMC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_DEC_3:7",
+    "composition": "LiFSI 4.0M in EMC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EMC_DEC_1:1",
+    "composition": "LiFSI 6.0M in EMC:DEC (1:1)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EMC_DEC_3:7",
+    "composition": "LiFSI 6.0M in EMC:DEC (3:7)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EMC_DEC_1:1",
+    "composition": "LiPF6 0.5M in EMC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EMC_DEC_3:7",
+    "composition": "LiPF6 0.5M in EMC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EMC_DEC_1:1",
+    "composition": "LiPF6 1.0M in EMC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EMC_DEC_3:7",
+    "composition": "LiPF6 1.0M in EMC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EMC_DEC_1:1",
+    "composition": "LiPF6 1.5M in EMC:DEC (1:1)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EMC_DEC_3:7",
+    "composition": "LiPF6 1.5M in EMC:DEC (3:7)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EMC_DEC_1:1",
+    "composition": "LiTFSI 1.0M in EMC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EMC_DEC_3:7",
+    "composition": "LiTFSI 1.0M in EMC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EMC_DEC_1:1",
+    "composition": "LiTFSI 3.0M in EMC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EMC_DEC_3:7",
+    "composition": "LiTFSI 3.0M in EMC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EMC_DEC_1:1",
+    "composition": "LiTFSI 5.0M in EMC:DEC (1:1)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EMC_DEC_3:7",
+    "composition": "LiTFSI 5.0M in EMC:DEC (3:7)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EMC_DEC_1:1",
+    "composition": "LiBOB 0.1M in EMC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EMC_DEC_3:7",
+    "composition": "LiBOB 0.1M in EMC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EMC_DEC_1:1",
+    "composition": "LiBOB 0.5M in EMC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EMC_DEC_3:7",
+    "composition": "LiBOB 0.5M in EMC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EMC_DEC_1:1",
+    "composition": "LiBOB 1.0M in EMC:DEC (1:1)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EMC_DEC_3:7",
+    "composition": "LiBOB 1.0M in EMC:DEC (3:7)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EMC_DEC_1:1",
+    "composition": "LiDFP 0.1M in EMC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EMC_DEC_3:7",
+    "composition": "LiDFP 0.1M in EMC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EMC_DEC_1:1",
+    "composition": "LiDFP 0.5M in EMC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EMC_DEC_3:7",
+    "composition": "LiDFP 0.5M in EMC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EMC_DEC_1:1",
+    "composition": "LiDFP 1.0M in EMC:DEC (1:1)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1,
+      1
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EMC_DEC_3:7",
+    "composition": "LiDFP 1.0M in EMC:DEC (3:7)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC",
+      "DEC"
+    ],
+    "solvent_ratio": [
+      3,
+      7
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiFSI 1.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiFSI 2.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiFSI 4.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiFSI 6.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_0.5M_EC_DMC_EMC_5:3:2",
+    "composition": "LiPF6 0.5M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiPF6 1.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiPF6_1.5M_EC_DMC_EMC_5:3:2",
+    "composition": "LiPF6 1.5M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiPF6",
+    "salt_conc_M": 1.5,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_1.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiTFSI 1.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_3.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiTFSI 3.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 3.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiTFSI_5.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiTFSI 5.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiTFSI",
+    "salt_conc_M": 5.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.1M_EC_DMC_EMC_5:3:2",
+    "composition": "LiBOB 0.1M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_0.5M_EC_DMC_EMC_5:3:2",
+    "composition": "LiBOB 0.5M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiBOB_1.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiBOB 1.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiBOB",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.1M_EC_DMC_EMC_5:3:2",
+    "composition": "LiDFP 0.1M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.1,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_0.5M_EC_DMC_EMC_5:3:2",
+    "composition": "LiDFP 0.5M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 0.5,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiDFP_1.0M_EC_DMC_EMC_5:3:2",
+    "composition": "LiDFP 1.0M in EC:DMC:EMC (5:3:2)",
+    "salt_name": "LiDFP",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC",
+      "DMC",
+      "EMC"
+    ],
+    "solvent_ratio": [
+      5,
+      3,
+      2
+    ],
+    "additive_name": null,
+    "additive_wt_pct": 0.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_VC_2.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_VC_5.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_PS_1.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_PS_2.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_VC_2.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_VC_5.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_PS_1.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_PS_2.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_VC_2.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_VC_5.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_PS_1.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_PS_2.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_EMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_VC_2.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_VC_5.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_PS_1.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_PS_2.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DME_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_VC_2.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_VC_5.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_PS_1.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_PS_2.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_DEC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_FEC_2.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_FEC_5.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_FEC_10.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_VC_2.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_VC_5.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_PS_1.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_PS_2.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_1.0M_PC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 1.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 1.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_VC_2.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_VC_5.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_PS_1.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_PS_2.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_VC_2.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_VC_5.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_PS_1.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_PS_2.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_VC_2.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_VC_5.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_PS_1.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_PS_2.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_EMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_VC_2.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_VC_5.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_PS_1.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_PS_2.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DME_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_VC_2.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_VC_5.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_PS_1.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_PS_2.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_DEC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_FEC_2.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_FEC_5.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_FEC_10.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_VC_2.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_VC_5.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_PS_1.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_PS_2.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_2.0M_PC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 2.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 2.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_VC_2.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_VC_5.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_PS_1.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_PS_2.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_VC_2.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_VC_5.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_PS_1.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_PS_2.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_VC_2.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_VC_5.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_PS_1.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_PS_2.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_EMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in EMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "EMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_VC_2.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_VC_5.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_PS_1.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_PS_2.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DME_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in DME",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DME"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_VC_2.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_VC_5.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_PS_1.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_PS_2.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_DEC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in DEC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "DEC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_FEC_2.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_FEC_5.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_FEC_10.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_VC_2.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_VC_5.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_PS_1.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_PS_2.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_4.0M_PC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 4.0M in PC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 4.0,
+    "solvents": [
+      "PC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_FEC_2.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_FEC_5.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_FEC_10.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_VC_2.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_VC_5.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_PS_1.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_PS_2.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_EC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 6.0M in EC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "EC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_FEC_2.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_FEC_5.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_FEC_10.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "FEC",
+    "additive_wt_pct": 10.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_VC_2.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_VC_5.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "VC",
+    "additive_wt_pct": 5.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_PS_1.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_PS_2.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "PS",
+    "additive_wt_pct": 2.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_LiBOB_additive_1.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 1.0
+  },
+  {
+    "formulation_name": "LiFSI_6.0M_DMC_LiBOB_additive_2.0wt",
+    "composition": "LiFSI 6.0M in DMC",
+    "salt_name": "LiFSI",
+    "salt_conc_M": 6.0,
+    "solvents": [
+      "DMC"
+    ],
+    "solvent_ratio": [
+      1.0
+    ],
+    "additive_name": "LiBOB_additive",
+    "additive_wt_pct": 2.0
+  }
+]

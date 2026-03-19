@@ -1,0 +1,87 @@
+{
+  "formulation_name": "LiFSI_1.0M_DME_FEC_2.0wt",
+  "composition": "LiFSI 1.0M in DME",
+  "salt_name": "LiFSI",
+  "salt_conc_M": 1.0,
+  "solvents": [
+    "DME"
+  ],
+  "solvent_ratio": [
+    1.0
+  ],
+  "additive_name": "FEC",
+  "additive_wt_pct": 2.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiFSI in DME + 2.0wt% FEC",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "DME": {
+        "residue_names": [
+          "DME"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.9999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 38.594120000000004
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiFSI": {
+        "residue_names": [
+          "LiFSI"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.7999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 57.89117999999999
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "FEC": {
+        "residue_names": [
+          "FEC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.4999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 86.83677
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}

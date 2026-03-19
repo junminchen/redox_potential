@@ -1,0 +1,89 @@
+{
+  "formulation_name": "LiDFP_0.1M_EC_DMC_1:1",
+  "composition": "LiDFP 0.1M in EC:DMC (1:1)",
+  "salt_name": "LiDFP",
+  "salt_conc_M": 0.1,
+  "solvents": [
+    "EC",
+    "DMC"
+  ],
+  "solvent_ratio": [
+    1,
+    1
+  ],
+  "additive_name": null,
+  "additive_wt_pct": 0.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiDFP in EC:DMC (1:1)",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "EC": {
+        "residue_names": [
+          "EC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.5999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 77.18824000000001
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "DMC": {
+        "residue_names": [
+          "DMC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.7999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 57.89117999999999
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiDFP": {
+        "residue_names": [
+          "LiDFP"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 1.0999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 28.945589999999996
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}

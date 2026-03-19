@@ -1,0 +1,66 @@
+{
+  "formulation_name": "LiBOB_0.1M_PC",
+  "composition": "LiBOB 0.1M in PC",
+  "salt_name": "LiBOB",
+  "salt_conc_M": 0.1,
+  "solvents": [
+    "PC"
+  ],
+  "solvent_ratio": [
+    1.0
+  ],
+  "additive_name": null,
+  "additive_wt_pct": 0.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiBOB in PC",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "PC": {
+        "residue_names": [
+          "PC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.7
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 67.53970999999999
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiBOB": {
+        "residue_names": [
+          "LiBOB"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 1.2
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 19.297060000000002
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "formulation_name": "LiBOB_0.5M_DMC_DME_3:7",
+  "composition": "LiBOB 0.5M in DMC:DME (3:7)",
+  "salt_name": "LiBOB",
+  "salt_conc_M": 0.5,
+  "solvents": [
+    "DMC",
+    "DME"
+  ],
+  "solvent_ratio": [
+    3,
+    7
+  ],
+  "additive_name": null,
+  "additive_wt_pct": 0.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiBOB in DMC:DME (3:7)",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "DMC": {
+        "residue_names": [
+          "DMC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.7999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 57.89117999999999
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "DME": {
+        "residue_names": [
+          "DME"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.9999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 38.594120000000004
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiBOB": {
+        "residue_names": [
+          "LiBOB"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 1.2
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 19.297060000000002
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}

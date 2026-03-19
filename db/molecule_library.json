@@ -1,0 +1,313 @@
+{
+  "_comment": "高通量筛选分子数据库 - 溶剂、锂盐、添加剂的氧化还原参数",
+  "_sources": {
+    "EA_IP": "文献值 + DFT计算 (B3LYP/6-311++G**, PCM溶剂模型)",
+    "refs": {
+      "EC": "Johnson et al. J Phys Chem B 2012; Wang et al. Nat Energy 2022",
+      "DMC": "Valadie et al. J Phys Chem C 2013",
+      "EMC": "Ou et al. J Electrochem Soc 2018",
+      "DME": "Camino et al. J Chem Phys 2002",
+      "LiFSI": "Chen et al. Angew Chem 2020",
+      "LiPF6": "Borodin et al. J Phys Chem B 2005",
+      "LiTFSI": "Feng et al. Chem Mater 2015",
+      "FEC": "M+C: J. Phys. Chem. C 2019 + experiments",
+      "VC": "Ou et al. J Electrochem Soc 2018",
+      "LiBOB": "Mo et al. J Electrochem Soc 2019"
+    }
+  },
+  "solvent_library": {
+    "EC": {
+      "name": "Ethylene Carbonate",
+      "category": "cyclic_carbonate",
+      "smiles": "O=C1OCCOC1=O",
+      "density_gcm3": 1.32,
+      "mw": 88.06,
+      "dielectric_constant": 89.6,
+      "reduction": {
+        "E_vs_li": 0.6,
+        "E_vs_vacuum": -0.8,
+        "comment": "EC还原产物为自由基阴离子，在Li|Li+约0.6V开始分解",
+        "barrier_kjmol": 15.0
+      },
+      "oxidation": {
+        "E_vs_li": 5.2,
+        "E_vs_vacuum": 3.8,
+        "comment": "EC氧化电位高，高压稳定性好",
+        "barrier_kjmol": 80.0
+      }
+    },
+    "DMC": {
+      "name": "Dimethyl Carbonate",
+      "category": "linear_carbonate",
+      "smiles": "CC(C)OC(=O)OC",
+      "density_gcm3": 1.07,
+      "mw": 90.08,
+      "dielectric_constant": 3.1,
+      "reduction": {
+        "E_vs_li": 0.8,
+        "E_vs_vacuum": -0.6,
+        "comment": "DMC还原电位比EC更正",
+        "barrier_kjmol": 20.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.8,
+        "E_vs_vacuum": 3.4,
+        "comment": "线性碳酸酯氧化稳定性低于EC",
+        "barrier_kjmol": 60.0
+      }
+    },
+    "EMC": {
+      "name": "Ethyl Methyl Carbonate",
+      "category": "linear_carbonate",
+      "smiles": "CCOC(=O)OC",
+      "density_gcm3": 1.01,
+      "mw": 104.11,
+      "dielectric_constant": 2.4,
+      "reduction": {
+        "E_vs_li": 0.7,
+        "E_vs_vacuum": -0.7,
+        "comment": "EMC还原电位介于EC和DMC之间",
+        "barrier_kjmol": 18.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.7,
+        "E_vs_vacuum": 3.3,
+        "comment": "EMC高压稳定性较弱",
+        "barrier_kjmol": 55.0
+      }
+    },
+    "DME": {
+      "name": "1,2-Dimethoxyethane",
+      "category": "ether",
+      "smiles": "CCOCOCOCC",
+      "density_gcm3": 0.86,
+      "mw": 90.12,
+      "dielectric_constant": 7.2,
+      "reduction": {
+        "E_vs_li": 1.0,
+        "E_vs_vacuum": -0.4,
+        "comment": "醚类溶剂还原电位正，高压稳定性差",
+        "barrier_kjmol": 10.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.2,
+        "E_vs_vacuum": 2.8,
+        "comment": "醚类在4V以上易氧化",
+        "barrier_kjmol": 40.0
+      }
+    },
+    "DEC": {
+      "name": "Diethyl Carbonate",
+      "category": "linear_carbonate",
+      "smiles": "CCOCCOC(=O)OCC",
+      "density_gcm3": 0.98,
+      "mw": 118.13,
+      "dielectric_constant": 2.8,
+      "reduction": {
+        "E_vs_li": 0.85,
+        "E_vs_vacuum": -0.55,
+        "comment": "DEC还原稳定性优于EMC",
+        "barrier_kjmol": 22.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.75,
+        "E_vs_vacuum": 3.35,
+        "comment": "DEC氧化稳定性优于EMC",
+        "barrier_kjmol": 58.0
+      }
+    },
+    "PC": {
+      "name": "Propylene Carbonate",
+      "category": "cyclic_carbonate",
+      "smiles": "O=C1OCC(C)C1=O",
+      "density_gcm3": 1.20,
+      "mw": 102.09,
+      "dielectric_constant": 64.4,
+      "reduction": {
+        "E_vs_li": 0.7,
+        "E_vs_vacuum": -0.7,
+        "comment": "PC与EC性质相近，但黏度更高",
+        "barrier_kjmol": 14.0
+      },
+      "oxidation": {
+        "E_vs_li": 5.1,
+        "E_vs_vacuum": 3.7,
+        "comment": "PC高压稳定性优异",
+        "barrier_kjmol": 75.0
+      }
+    }
+  },
+  "salt_library": {
+    "LiFSI": {
+      "name": "LiFSI",
+      "full_name": "Lithium bis(fluorosulfonyl)imide",
+      "anion": "FSI-",
+      "mw": 180.01,
+      "reduction": {
+        "E_vs_li": 0.8,
+        "E_vs_vacuum": -0.6,
+        "comment": "FSI-阴离子还原产物为FSI·自由基，稳定性较好",
+        "barrier_kjmol": 25.0
+      },
+      "oxidation": {
+        "E_vs_li": 5.5,
+        "E_vs_vacuum": 4.1,
+        "comment": "FSI-氧化稳定性极高，是HM电析氢反应的主要原因",
+        "barrier_kjmol": 120.0
+      }
+    },
+    "LiPF6": {
+      "name": "LiPF6",
+      "full_name": "Lithium hexafluorophosphate",
+      "anion": "PF6-",
+      "mw": 151.91,
+      "reduction": {
+        "E_vs_li": 0.1,
+        "E_vs_vacuum": -1.3,
+        "comment": "PF6-还原产生PF5和LiF，0.1V vs Li/Li+开始",
+        "barrier_kjmol": 8.0,
+        "irreversible": true
+      },
+      "oxidation": {
+        "E_vs_li": 4.5,
+        "E_vs_vacuum": 3.1,
+        "comment": "PF6-氧化产生PF5，高压不稳定",
+        "barrier_kjmol": 45.0,
+        "irreversible": true
+      }
+    },
+    "LiTFSI": {
+      "name": "LiTFSI",
+      "full_name": "Lithium bis(trifluoromethylsulfonyl)imide",
+      "anion": "TFSI-",
+      "mw": 280.13,
+      "reduction": {
+        "E_vs_li": 0.9,
+        "E_vs_vacuum": -0.5,
+        "comment": "TFSI-还原电位正，产物稳定",
+        "barrier_kjmol": 30.0
+      },
+      "oxidation": {
+        "E_vs_li": 5.2,
+        "E_vs_vacuum": 3.8,
+        "comment": "TFSI-氧化稳定性优秀",
+        "barrier_kjmol": 100.0
+      }
+    },
+    "LiBOB": {
+      "name": "LiBOB",
+      "full_name": "Lithium bis(oxalato)borate",
+      "anion": "BOB-",
+      "mw": 193.79,
+      "reduction": {
+        "E_vs_li": 1.2,
+        "E_vs_vacuum": -0.2,
+        "comment": "BOB-还原电位正，可在负极形成稳定SEI",
+        "barrier_kjmol": 35.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.6,
+        "E_vs_vacuum": 3.2,
+        "comment": "BOB-氧化稳定性中等",
+        "barrier_kjmol": 50.0
+      }
+    },
+    "LiDFP": {
+      "name": "LiDFP",
+      "full_name": "Lithium difluoro(oxalato)borate",
+      "anion": "DFP-",
+      "mw": 173.77,
+      "reduction": {
+        "E_vs_li": 1.1,
+        "E_vs_vacuum": -0.3,
+        "comment": "DFP-类似BOB，还原电位正",
+        "barrier_kjmol": 32.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.7,
+        "E_vs_vacuum": 3.3,
+        "comment": "DFP-氧化稳定性优于LiPF6",
+        "barrier_kjmol": 55.0
+      }
+    }
+  },
+  "additive_library": {
+    "FEC": {
+      "name": "Fluoroethylene Carbonate",
+      "smiles": "O=C1OCC(F)OC1=O",
+      "category": "film_former",
+      "mw": 106.05,
+      "reduction": {
+        "E_vs_li": 0.5,
+        "E_vs_vacuum": -0.9,
+        "comment": "FEC在0.5V vs Li/Li+还原形成LiF丰富的SEI",
+        "barrier_kjmol": 10.0,
+        "irreversible": true,
+        "film_forming": true
+      },
+      "oxidation": {
+        "E_vs_li": 5.0,
+        "E_vs_vacuum": 3.6,
+        "comment": "FEC氧化稳定性好",
+        "barrier_kjmol": 70.0
+      }
+    },
+    "VC": {
+      "name": "Vinylene Carbonate",
+      "smiles": "O=C1OC=CO1=O",
+      "category": "film_former",
+      "mw": 84.06,
+      "reduction": {
+        "E_vs_li": 0.7,
+        "E_vs_vacuum": -0.7,
+        "comment": "VC还原聚合形成SEI膜",
+        "barrier_kjmol": 12.0,
+        "irreversible": true,
+        "film_forming": true
+      },
+      "oxidation": {
+        "E_vs_li": 4.5,
+        "E_vs_vacuum": 3.1,
+        "comment": "VC氧化稳定性一般",
+        "barrier_kjmol": 45.0
+      }
+    },
+    "PS": {
+      "name": "Propylene Sulfite",
+      "smiles": "O=C1SCCO1",
+      "category": "film_former",
+      "mw": 106.09,
+      "reduction": {
+        "E_vs_li": 0.8,
+        "E_vs_vacuum": -0.6,
+        "comment": "PS在负极形成含硫化物的SEI",
+        "barrier_kjmol": 14.0,
+        "irreversible": true,
+        "film_forming": true
+      },
+      "oxidation": {
+        "E_vs_li": 4.3,
+        "E_vs_vacuum": 2.9,
+        "comment": "PS氧化稳定性较弱",
+        "barrier_kjmol": 40.0
+      }
+    },
+    "LiBOB_additive": {
+      "name": "LiBOB (additive)",
+      "category": "salt_additive",
+      "mw": 193.79,
+      "reduction": {
+        "E_vs_li": 1.0,
+        "E_vs_vacuum": -0.4,
+        "comment": "少量BOB-可在负极优先还原成膜",
+        "barrier_kjmol": 30.0
+      },
+      "oxidation": {
+        "E_vs_li": 4.6,
+        "E_vs_vacuum": 3.2,
+        "comment": "作为添加剂浓度低，氧化影响小",
+        "barrier_kjmol": 50.0
+      }
+    }
+  }
+}

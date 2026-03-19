@@ -1,0 +1,89 @@
+{
+  "formulation_name": "LiPF6_1.5M_EC_DME_1:1",
+  "composition": "LiPF6 1.5M in EC:DME (1:1)",
+  "salt_name": "LiPF6",
+  "salt_conc_M": 1.5,
+  "solvents": [
+    "EC",
+    "DME"
+  ],
+  "solvent_ratio": [
+    1,
+    1
+  ],
+  "additive_name": null,
+  "additive_wt_pct": 0.0,
+  "redox_config": {
+    "metadata": {
+      "electrolyte_composition": "LiPF6 in EC:DME (1:1)",
+      "temperature_k": 300.0,
+      "reference_electrode": "Li/Li+",
+      "vacuum_to_li_offset_ev": 1.4
+    },
+    "molecules": {
+      "EC": {
+        "residue_names": [
+          "EC"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.5999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 77.18824000000001
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "DME": {
+        "residue_names": [
+          "DME"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.9999999999999999
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 38.594120000000004
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      },
+      "LiPF6": {
+        "residue_names": [
+          "LiPF6"
+        ],
+        "charge_states": {
+          "0": 0.0,
+          "-1": -1.0
+        },
+        "electron_affinities": {
+          "0,-1": 0.09999999999999987
+        },
+        "state_free_energy_offsets_kjmol": {
+          "0": 0.0,
+          "-1": 125.43089
+        },
+        "allowed_states": [
+          0,
+          -1
+        ],
+        "partition_coefficient": 0.0
+      }
+    }
+  }
+}
