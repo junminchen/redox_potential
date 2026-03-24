@@ -247,7 +247,9 @@ The agreement is within 50–100 mV, acceptable for a first-generation screening
 
 ### 4.2 High-throughput screening: 548 formulations
 
-Figure 1 (placeholder: voltage–fraction reduced curves for all formulations, color-coded by salt) and Table 2 (summary statistics) would go here.
+Figures 1–3 show the high-throughput screening results: Fig. 1 (salt ranking by reduction half-wave potential), Fig. 2 (solvent ranking), and Fig. 3 (stability windows for the top 20 formulations). Table 2 (summary statistics) would go here.
+
+> **⚠️ Note on anodic limits:** The oxidation (anodic) limits shown in Fig. 3 (~4.5–5.1 V vs Li/Li⁺) represent the *thermodynamic* oxidation onset of individual molecular species — i.e., the potential at which electron loss first becomes energetically favorable — without kinetic barriers. In practice, real electrolytes decompose at lower potentials (~4.2–4.5 V) due to (i) irreversible multi-electron C–O bond cleavage that is not captured by single-electron RedoxMC, (ii) oxidative decomposition of the solvent backbone itself at ~4.5 V, and (iii) catalytic effects at the cathode surface. The anodic limits should therefore be interpreted as *upper-bound estimates*; the cathodic (reduction) limits are more reliable because SEI formation terminates further decomposition and is implicitly reflected in the measured onset. See Limitation 5 (§5.2) for details.
 
 **Table 2: Top 20 formulations by cathodic stability (most positive reduction onset)**
 
@@ -296,7 +298,7 @@ Adding **VC** (vinylene carbonate):
 
 ### 4.6 The interface state descriptor in practice
 
-Figure 2 (placeholder: schematic of f_red(V) vs V for three representative molecules, with experimental LSV traces overlaid) illustrates the concept.
+Figure 4 (schematic of f_red(V) vs V for three representative molecules, with simulated LSV traces) illustrates the concept.
 
 The `f_red(V)` curve has three interpretable regions:
 1. **Region I (V ≪ E₁/₂)**: `f_red ≈ 1.0` — the molecule is fully in its reduced state. Any applied cathodic current would be zero (no further reduction).
@@ -347,6 +349,11 @@ The current model treats all redox events as equilibrium processes. In reality, 
 The current work focuses on the cathodic (reduction) side. The anodic (oxidation) side — critical for high-voltage cathodes — requires an analogous treatment of hole capture and bond-breaking processes.
 
 *Remediation*: Implement the oxidation-side RedoxMC (currently in `configs/oxidation/`) and integrate it into the screening pipeline.
+
+**Limitation 5: Thermodynamic vs. kinetic anodic limits.**
+The oxidation (anodic) limits reported here (~4.5–5.1 V vs Li/Li⁺) are thermodynamic onset potentials for single-electron removal from the most easily oxidized species in the formulation. Real electrolytes consistently show lower experimental decomposition voltages (~4.2–4.5 V) because: (i) oxidative decomposition of carbonate solvents involves irreversible, multi-electron C–O bond cleavage that is energetically easier than the first electron removal; (ii) catalytic effects at the cathode surface lower effective oxidation barriers; and (iii) no kinetic overpotential is included in the grand-canonical Boltzmann model. As a result, the *cathodic* (reduction) limits are the more reliable predictions of this framework, while anodic limits should be treated as upper-bound estimates only.
+
+*Remediation*: (a) Calibrate against experimental LSV anodic onset data to derive an empirical correction offset (~0.3–0.5 V negative shift); (b) implement multi-electron oxidation reaction channels in RedoxMC; (c) add Butler–Volmer kinetic corrections to distinguish thermodynamic onset from measurable current onset.
 
 ### 5.3 Comparison with prior work
 
