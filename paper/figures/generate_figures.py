@@ -11,7 +11,7 @@ import matplotlib.patches as mpatches
 from pathlib import Path
 
 # ── paths ─────────────────────────────────────────────────────────────────────
-DATA = Path(__file__).parent.parent.parent / "results" / "ht_screening_v2"
+DATA = Path(__file__).parent.parent.parent / "results" / "ht_screening_v3_dft_corrected"
 OUT  = Path(__file__).parent
 OUT.mkdir(exist_ok=True)
 

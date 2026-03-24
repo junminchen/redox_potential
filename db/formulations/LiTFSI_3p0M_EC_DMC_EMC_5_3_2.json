@@ -32,11 +32,11 @@
           "-1": -1.0
         },
         "electron_affinities": {
-          "0,-1": 0.5999999999999999
+          "0,-1": -0.9979
         },
         "state_free_energy_offsets_kjmol": {
           "0": 0.0,
-          "-1": 77.18824000000001
+          "-1": 96.28
         },
         "allowed_states": [
           0,
@@ -53,11 +53,11 @@
           "-1": -1.0
         },
         "electron_affinities": {
-          "0,-1": 0.7999999999999999
+          "0,-1": -1.2136
         },
         "state_free_energy_offsets_kjmol": {
           "0": 0.0,
-          "-1": 57.89117999999999
+          "-1": 117.09
         },
         "allowed_states": [
           0,
@@ -74,11 +74,11 @@
           "-1": -1.0
         },
         "electron_affinities": {
-          "0,-1": 0.7
+          "0,-1": -1.2079
         },
         "state_free_energy_offsets_kjmol": {
           "0": 0.0,
-          "-1": 67.53970999999999
+          "-1": 116.53
         },
         "allowed_states": [
           0,

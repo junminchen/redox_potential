@@ -28,11 +28,11 @@
           "-1": -1.0
         },
         "electron_affinities": {
-          "0,-1": 0.7
+          "0,-1": -0.9367
         },
         "state_free_energy_offsets_kjmol": {
           "0": 0.0,
-          "-1": 67.53970999999999
+          "-1": 90.36
         },
         "allowed_states": [
           0,
@@ -70,11 +70,11 @@
           "-1": -1.0
         },
         "electron_affinities": {
-          "0,-1": 0.4999999999999999
+          "0,-1": -0.8542
         },
         "state_free_energy_offsets_kjmol": {
           "0": 0.0,
-          "-1": 86.83677
+          "-1": 82.39
         },
         "allowed_states": [
           0,
