@@ -191,60 +191,63 @@ def fig3_stability_windows():
 
 
 # ══════════════════════════════════════════════════════════════════════════════
-# FIG 4 – f_red(V) concept schematic  (3 representative molecules)
+# FIG 4 – f_red(V) from real RedoxMC calculations (EC and DMC)
+# Data source: experimental_redox_report / electrolyte_redox_curves.csv
 # ══════════════════════════════════════════════════════════════════════════════
 def fig4_fred_concept():
-    """Schematic f_red(V) curves for LiBOB, EC, and DME."""
-    V = np.linspace(-0.5, 2.5, 500)
+    REDOX_CSV = (
+        Path(__file__).parent.parent.parent
+        / "results" / "experimental_redox_report_20260311_234115"
+        / "electrolyte_redox_curves.csv"
+    )
 
-    # Parameters extracted from screening data
-    # E_halfwave (V vs Li/Li+) for each species
-    e_half = {
-        "LiBOB": 1.20,
-        "EC":    0.60,
-        "DME":   0.10,
-    }
-
-    def fred(V, E12, width=0.18):
-        """Boltzmann-derived f_red = 1/(1+exp((V-E12)/width))."""
-        return 1.0 / (1.0 + np.exp((V - E12) / width))
-
-    def I_sim(V, E12, width=0.18):
-        """-d(f_red)/dV  (LSV-like peak)."""
-        exp_term = np.exp((V - E12) / width)
-        return exp_term / (width * (1 + exp_term)**2)
+    import csv as _csv
+    data = {"EC": [], "DMC": []}
+    with open(REDOX_CSV) as f:
+        for row in _csv.DictReader(f):
+            mol = row["molecule"].strip()
+            if mol in data:
+                data[mol].append({
+                    "v_li":    float(row["voltage_li_v"]),
+                    "f_red":   float(row["fraction_reduced"]),
+                    "mean_q":  float(row["mean_charge_e"]),
+                })
 
     fig, axes = plt.subplots(1, 2, figsize=(10, 4))
-
-    colors = {"LiBOB": SALT_COLORS["LiBOB"], "EC": SOLVENT_COLORS["EC"], "DME": SOLVENT_COLORS["DME"]}
+    COL = {"EC": "#F4A261", "DMC": "#8AB17D"}
 
     ax = axes[0]
-    for spec, col in [("LiBOB","#E63946"), ("EC","#F4A261"), ("DME","#8AB17D")]:
-        f = fred(V, e_half[spec])
-        ax.plot(V, f, label=spec, color=col, lw=2)
+    for mol, col in COL.items():
+        rows = sorted(data[mol], key=lambda r: r["v_li"])
+        v  = [r["v_li"]  for r in rows]
+        fr = [r["f_red"] for r in rows]
+        ax.plot(v, fr, "o-", label=mol, color=col, lw=1.8, ms=4)
 
-    ax.axhline(0.5, color="grey", lw=0.8, ls="--", alpha=0.6)
-    ax.axhline(0.1, color="grey", lw=0.8, ls=":",  alpha=0.6)
-    ax.text(2.35, 0.5,  "f_red = 0.5\n(E½)", va="center", fontsize=7.5, color="grey")
-    ax.text(2.35, 0.1,  "f_red = 0.1\n(onset)", va="center", fontsize=7.5, color="grey")
-
+    ax.axhline(0.5,  color="grey", lw=0.8, ls="--", alpha=0.6)
+    ax.axhline(0.1,  color="grey", lw=0.8, ls=":",  alpha=0.6)
+    ax.text(ax.get_xlim()[1] - 0.02, 0.5,  "f_red = 0.5 (E½)",  va="center", ha="right", fontsize=7.5, color="grey")
+    ax.text(ax.get_xlim()[1] - 0.02, 0.1,  "f_red = 0.1 (onset)", va="center", ha="right", fontsize=7.5, color="grey")
     ax.set_xlabel("Electrode potential V (V vs Li/Li⁺)")
     ax.set_ylabel("f_red(V)")
     ax.set_title("Charge-State Fraction  f_red(V)", fontweight="bold")
     ax.legend(frameon=False)
     ax.set_ylim(-0.05, 1.05)
-    ax.set_xlim(-0.5, 2.5)
 
+    # Compute I_sim = -d(f_red)/dV numerically
     ax2 = axes[1]
-    for spec, col in [("LiBOB","#E63946"), ("EC","#F4A261"), ("DME","#8AB17D")]:
-        I = I_sim(V, e_half[spec])
-        ax2.plot(V, I, label=spec, color=col, lw=2)
+    for mol, col in COL.items():
+        rows = sorted(data[mol], key=lambda r: r["v_li"])
+        v  = np.array([r["v_li"]  for r in rows])
+        fr = np.array([r["f_red"] for r in rows])
+        # simple first-order derivative
+        dv = np.gradient(v)
+        I  = -np.gradient(fr, v)   # -df_red/dV
+        ax2.plot(v, I, label=mol, color=col, lw=1.8)
 
     ax2.set_xlabel("Electrode potential V (V vs Li/Li⁺)")
     ax2.set_ylabel("I_sim(V) ∝ −df_red/dV")
-    ax2.set_title("Simulated LSV Trace", fontweight="bold")
+    ax2.set_title("Simulated LSV Trace (−df_red/dV)", fontweight="bold")
     ax2.legend(frameon=False)
-    ax2.set_xlim(-0.5, 2.5)
 
     fig.tight_layout()
     fig.savefig(OUT / "fig4_fred_concept.png", bbox_inches="tight")
