@@ -1,0 +1,129 @@
+{
+  "EC": {
+    "status": "OK",
+    "pdb": "EC.pdb",
+    "E_neutral_ha": -342.4126415306875,
+    "E_anion_ha": -342.3759711731598,
+    "dG_ha": 0.036670357527668784,
+    "EA_eV": -0.997851253443401,
+    "E_vs_Li": 0.40214874655659893,
+    "offset_kjmol": -96.27767818848655,
+    "elapsed_s": 5.4
+  },
+  "DMC": {
+    "status": "OK",
+    "pdb": "DMC.pdb",
+    "E_neutral_ha": -343.6252375425396,
+    "E_anion_ha": -343.58063901951493,
+    "dG_ha": 0.04459852302466061,
+    "EA_eV": -1.2135876250539273,
+    "E_vs_Li": 0.18641237494607266,
+    "offset_kjmol": -117.09300200332817,
+    "elapsed_s": 7.1
+  },
+  "DEC": {
+    "status": "OK",
+    "pdb": "DEC.pdb",
+    "E_neutral_ha": -422.26780334475023,
+    "E_anion_ha": -422.2220992621653,
+    "dG_ha": 0.045704082584961725,
+    "EA_eV": -1.2436714329952714,
+    "E_vs_Li": 0.15632856700472852,
+    "offset_kjmol": -119.99563821254876,
+    "elapsed_s": 17.2
+  },
+  "EMC": {
+    "status": "OK",
+    "pdb": "EMC.pdb",
+    "E_neutral_ha": -382.94658402538636,
+    "E_anion_ha": -382.9021945207714,
+    "dG_ha": 0.044389504614969155,
+    "EA_eV": -1.2078999444267071,
+    "E_vs_Li": 0.1921000555732928,
+    "offset_kjmol": -116.54422613801084,
+    "elapsed_s": 11.4
+  },
+  "DME": {
+    "status": "OK",
+    "pdb": "DME.pdb",
+    "E_neutral_ha": -308.8786374188674,
+    "E_anion_ha": -308.829555565302,
+    "dG_ha": 0.049081853565439815,
+    "EA_eV": -1.3355852629646592,
+    "E_vs_Li": 0.06441473703534073,
+    "offset_kjmol": -128.86394409714515,
+    "elapsed_s": 9.1
+  },
+  "PC": {
+    "status": "OK",
+    "pdb": "PC.pdb",
+    "E_neutral_ha": -381.7369816404777,
+    "E_anion_ha": -381.7025599140647,
+    "dG_ha": 0.03442172641302932,
+    "EA_eV": -0.9366628842113363,
+    "E_vs_Li": 0.46333711578866366,
+    "offset_kjmol": -90.37391838313077,
+    "elapsed_s": 9.1
+  },
+  "LiFSI": {
+    "status": "ERROR",
+    "note": "Electron number 89 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "LiPF6": {
+    "status": "ERROR",
+    "note": "Electron number 69 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "LiTFSI": {
+    "status": "ERROR",
+    "note": "Electron number 137 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "LiBOB": {
+    "status": "ERROR",
+    "note": "Electron number 93 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "LiDFP": {
+    "status": "ERROR",
+    "note": "Electron number 49 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "FEC": {
+    "status": "OK",
+    "pdb": "FEC.pdb",
+    "E_neutral_ha": -441.6596145834523,
+    "E_anion_ha": -441.628224842498,
+    "dG_ha": 0.03138974095429603,
+    "EA_eV": -0.8541583575473577,
+    "E_vs_Li": 0.5458416424526422,
+    "offset_kjmol": -82.4134691279568,
+    "elapsed_s": 7.1
+  },
+  "PS": {
+    "status": "OK",
+    "pdb": "PS.pdb",
+    "E_neutral_ha": -741.7331349323701,
+    "E_anion_ha": -741.7019680567571,
+    "dG_ha": 0.03116687561305298,
+    "EA_eV": -0.8480938827207714,
+    "E_vs_Li": 0.5519061172792286,
+    "offset_kjmol": -81.82833827431362,
+    "elapsed_s": 10.0
+  },
+  "GBL": {
+    "status": "OK",
+    "pdb": "GBL.pdb",
+    "E_neutral_ha": -306.5087008915183,
+    "E_anion_ha": -306.46858372726786,
+    "dG_ha": 0.040117164250432324,
+    "EA_eV": -1.0916436416439146,
+    "E_vs_Li": 0.3083563583560853,
+    "offset_kjmol": -105.3272367640131,
+    "elapsed_s": 7.5
+  },
+  "BF4": {
+    "status": "ERROR",
+    "note": "Electron number 41 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  },
+  "NO3": {
+    "status": "ERROR",
+    "note": "Electron number 31 and spin 0 are not consistent\nNote mol.spin = 2S = Nalpha - Nbeta, not 2S+1"
+  }
+}

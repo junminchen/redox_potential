@@ -1,0 +1,209 @@
+{
+  "metadata": {
+    "method": "B3LYP/6-31+g(d,p)",
+    "solvent": "PCM (ddCOSMO, eps=40)",
+    "vacuum_to_li_offset_ev": 1.4,
+    "temperature_k": 300.0,
+    "note": "Vertical EA. Geometry optimization NOT applied \u2014 use with caution for absolute values."
+  },
+  "molecules": {
+    "EC": {
+      "residue_names": [
+        "EC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -0.997851253443401
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -96.2777
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.4021
+    },
+    "DMC": {
+      "residue_names": [
+        "DMC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -1.2135876250539273
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -117.093
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.1864
+    },
+    "DEC": {
+      "residue_names": [
+        "DEC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -1.2436714329952714
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -119.9956
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.1563
+    },
+    "EMC": {
+      "residue_names": [
+        "EMC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -1.2078999444267071
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -116.5442
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.1921
+    },
+    "DME": {
+      "residue_names": [
+        "DME"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -1.3355852629646592
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -128.8639
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.0644
+    },
+    "PC": {
+      "residue_names": [
+        "PC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -0.9366628842113363
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -90.3739
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.4633
+    },
+    "FEC": {
+      "residue_names": [
+        "FEC"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -0.8541583575473577
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -82.4135
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.5458
+    },
+    "PS": {
+      "residue_names": [
+        "PS"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -0.8480938827207714
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -81.8283
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.5519
+    },
+    "GBL": {
+      "residue_names": [
+        "GBL"
+      ],
+      "charge_states": {
+        "0": 0.0,
+        "-1": -1.0
+      },
+      "electron_affinities": {
+        "0,-1": -1.0916436416439146
+      },
+      "state_free_energy_offsets_kjmol": {
+        "0": 0.0,
+        "-1": -105.3272
+      },
+      "allowed_states": [
+        0,
+        -1
+      ],
+      "partition_coefficient": 0.0,
+      "_dft_E_vs_Li": 0.3084
+    }
+  }
+}
